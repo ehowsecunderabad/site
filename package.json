@@ -1,0 +1,10 @@
+{
+  "name": "youtube-live-cache",
+  "version": "1.0.0",
+  "description": "Generates cache files for YouTube live streams.",
+  "main": "update-cache.js",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
