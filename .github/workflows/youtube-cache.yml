@@ -1,0 +1,43 @@
+name: Update YouTube Cache
+
+# How the action is triggered
+on:
+  # 1. Allows you to run it manually from the Actions tab in GitHub
+  workflow_dispatch:
+  # 2. Runs on a schedule (every 15 minutes)
+  schedule:
+    - cron: '*/15 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checks out your repository code so the action can access it
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Sets up the Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18' # Use a recent LTS version
+          cache: 'npm'
+
+      # 3. Installs the 'node-fetch' dependency
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Runs your script, passing the secrets as environment variables
+      - name: Run cache update script
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+        run: node update-cache.js
+
+      # 5. Checks if any *.json files have changed and commits them back to the repo
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: Update YouTube cache files'
+          file_pattern: '*.json'
