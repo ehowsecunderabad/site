@@ -16,10 +16,17 @@ async function getActivityVideoIds() {
   if (!res.ok) throw new Error(`API error (activities.list): ${res.status} ${await res.text()}`);
   const data = await res.json();
 
+  // --- DEBUGGING: Log the entire raw response from the API ---
+  console.log("--- Raw API Response from activities.list ---");
+  console.log(JSON.stringify(data, null, 2));
+
   // Filter for upload activities and extract video IDs
-  return data.items
+  const videoIds = data.items
     .filter(item => item.contentDetails && item.contentDetails.upload)
     .map(item => item.contentDetails.upload.videoId);
+  
+  console.log(`--- Extracted ${videoIds.length} video IDs from the activity feed ---`);
+  return videoIds;
 }
 
 /**
