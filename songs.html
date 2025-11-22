@@ -140,29 +140,18 @@
 
         async function fetchSongs() {
             try {
-                // IMPORTANT: Replace 'song-list.json' with the raw URL of your manifest file on GitHub
-                const manifestResponse = await fetch('song-list.json');
-                const songFiles = await manifestResponse.json();
-
-                const songPromises = songFiles.map(async (filename) => {
-                    const parts = filename.replace('.txt', '').split(' - ');
-                    const language = parts[0];
-                    const title = parts.slice(1).join(' - ');
-                    
-                    // IMPORTANT: Ensure the path is correct when hosting
-                    const songResponse = await fetch(`songs/${filename}`);
-                    const lyrics = await songResponse.text();
-
-                    return { title, language, lyrics };
-                });
-
-                songs = await Promise.all(songPromises);
+                // Fetch the song list from our local dynamic server
+                const response = await fetch('/api/songs');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                songs = await response.json();
 
                 renderLanguages();
                 renderSongList();
             } catch (error) {
                 console.error('Error fetching songs:', error);
-                songListEl.innerHTML = '<li>Error loading songs. Please check your `song-list.json` and `songs` directory.</li>';
+                songListEl.innerHTML = '<li>Could not load songs. Make sure the server is running.</li>';
             }
         }
 
