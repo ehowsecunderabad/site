@@ -44,10 +44,19 @@ jobs:
                   title_match = re.search(r'\[TITLE\]\s*(.*)', content)
                   title = title_match.group(1).strip() if title_match else 'Unknown Title'
 
+                  # Determine language from filename or title
+                  language = 'English' # Default
+                  if re.search(r'[\u0C00-\u0C7F]', title): # Check for Telugu characters in title
+                      language = 'Telugu'
+                  elif re.search(r'[\u0900-\u097F]', title): # Check for Hindi characters in title
+                      language = 'Hindi'
+                  elif 'English -' in filename:
+                      language = 'English'
+
                   songs.append({
                       'id': song_id,
                       'title': title,
-                      'language': 'English', # Assuming English for all .txt files
+                      'language': language,
                       'lyrics': content
                   })
 
