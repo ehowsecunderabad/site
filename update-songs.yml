@@ -1,0 +1,66 @@
+name: Update Songs JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'songs/**.txt'
+  workflow_dispatch:
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run script to update songs.json
+        id: update_script
+        run: |
+          import json
+          import os
+          import re
+
+          songs_dir = 'songs'
+          songs_json_path = 'songs.json'
+          songs = []
+
+          for filename in sorted(os.listdir(songs_dir)):
+              if filename.endswith('.txt'):
+                  filepath = os.path.join(songs_dir, filename)
+                  with open(filepath, 'r', encoding='utf-8') as f:
+                      content = f.read()
+
+                  song_id_match = re.search(r'\[NUMBER\]\s*(\d+)', content)
+                  song_id = int(song_id_match.group(1)) if song_id_match else None
+
+                  title_match = re.search(r'\[TITLE\]\s*(.*)', content)
+                  title = title_match.group(1).strip() if title_match else 'Unknown Title'
+
+                  songs.append({
+                      'id': song_id,
+                      'title': title,
+                      'language': 'English', # Assuming English for all .txt files
+                      'lyrics': content
+                  })
+
+          with open(songs_json_path, 'w', encoding='utf-8') as f:
+              json.dump(songs, f, indent=2, ensure_ascii=False)
+
+          echo "songs.json updated successfully."
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: auto-update songs.json from song files"
+          file_pattern: songs.json
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
