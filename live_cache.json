@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "XXkCj9kxOfGFlGhlt5ZVS2tjh3o",
+      "etag": "lrhg8fDyo1ZdXMlJIdhow5YHC48",
       "id": "MO0JyHXV69E",
       "snippet": {
         "publishedAt": "2025-11-19T12:16:33Z",
@@ -73,9 +73,9 @@
       "liveStreamingDetails": {
         "actualStartTime": "2025-11-23T03:55:05Z",
         "scheduledStartTime": "2025-11-23T04:00:00Z",
-        "concurrentViewers": "21"
+        "concurrentViewers": "18"
       }
     }
   ],
-  "generatedAt": "2025-11-23T05:31:45.555Z"
+  "generatedAt": "2025-11-23T05:47:14.659Z"
 }
