@@ -1,4 +1,5 @@
 [NUMBER] 70
+[LANGUAGE] English
 [TITLE] Lord, speak to me
 
 [Verse 1]

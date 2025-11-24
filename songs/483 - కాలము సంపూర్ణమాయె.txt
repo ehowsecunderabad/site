@@ -1,4 +1,5 @@
 ﻿[NUMBER] 483
+[LANGUAGE] Telugu
 [TITLE] కాలము సంపూర్ణమాయె
 
 కాలము సంపూర్ణమాయె

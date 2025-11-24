@@ -1,4 +1,5 @@
 ﻿[NUMBER] 525
+[LANGUAGE] Telugu
 [TITLE] కృపామయుడ నీలోనా
 
 కృపామయుడ నీలోనా...

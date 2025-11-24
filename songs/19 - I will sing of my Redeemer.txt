@@ -1,4 +1,5 @@
 [NUMBER] 19
+[LANGUAGE] English
 [TITLE] I will sing of my Redeemer
 
 [Verse 1]

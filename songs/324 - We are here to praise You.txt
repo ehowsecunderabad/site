@@ -1,4 +1,5 @@
 [NUMBER] 324
+[LANGUAGE] English
 [TITLE] We are here to praise You
 
 We are here to praise You,

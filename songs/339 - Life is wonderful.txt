@@ -1,4 +1,5 @@
 [NUMBER] 339
+[LANGUAGE] English
 [TITLE] Life is wonderful
 
 Life is wonderful, yes, it's wonderful!

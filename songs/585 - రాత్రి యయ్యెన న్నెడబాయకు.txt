@@ -1,4 +1,5 @@
 ﻿[NUMBER] 585
+[LANGUAGE] Telugu
 [TITLE] రాత్రి యయ్యెన న్నెడబాయకు
 
 [VERSE 1]

@@ -1,4 +1,5 @@
 ﻿[NUMBER] 490
+[LANGUAGE] Telugu
 [TITLE] దేవుడే నాకాశ్రయంబు
 
 దేవుడే నాకాశ్రయంబు

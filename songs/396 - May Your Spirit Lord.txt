@@ -1,4 +1,5 @@
 [NUMBER] 396
+[LANGUAGE] English
 [TITLE] May Your Spirit Lord
 
 May Your Spirit Lord,

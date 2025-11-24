@@ -1,4 +1,5 @@
 [NUMBER] 294
+[LANGUAGE] English
 [TITLE] We bring sacrifice of praise
 
 We bring sacrifice of praise

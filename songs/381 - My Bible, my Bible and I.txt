@@ -1,4 +1,5 @@
 [NUMBER] 381
+[LANGUAGE] English
 [TITLE] My Bible, my Bible and I
 
 My Bible, my Bible and I

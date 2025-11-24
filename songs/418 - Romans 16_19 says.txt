@@ -1,4 +1,5 @@
 [NUMBER] 418
+[LANGUAGE] English
 [TITLE] Romans 16:19 says
 
 Romans 16:19 says ... be excellent at

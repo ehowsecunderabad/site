@@ -1,4 +1,5 @@
 [NUMBER] 45
+[LANGUAGE] English
 [TITLE] We praise Thee, O God!
 
 [Verse 1]

@@ -1,4 +1,5 @@
 [NUMBER] 173
+[LANGUAGE] English
 [TITLE] The Church's one foundation
 
 The Church's one foundation

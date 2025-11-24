@@ -1,4 +1,5 @@
 [NUMBER] 97
+[LANGUAGE] English
 [TITLE] On a hill far away
 
 [Verse 1]

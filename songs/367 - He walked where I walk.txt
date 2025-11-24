@@ -1,4 +1,5 @@
 [NUMBER] 367
+[LANGUAGE] English
 [TITLE] He walked where I walk
 
 He walked where I walk, (echo)

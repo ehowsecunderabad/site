@@ -1,4 +1,5 @@
 [NUMBER] 154
+[LANGUAGE] English
 [TITLE] Lead us, heavenly Father
 
 Lead us, heavenly Father, lead us

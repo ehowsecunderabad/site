@@ -1,4 +1,5 @@
 [NUMBER] 23
+[LANGUAGE] English
 [TITLE] I've found the Pearl of greatest
 
 [Verse 1]

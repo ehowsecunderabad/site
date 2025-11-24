@@ -1,4 +1,5 @@
 [NUMBER] 347
+[LANGUAGE] English
 [TITLE] Blessing and honor
 
 Blessing and honor, glory and power,

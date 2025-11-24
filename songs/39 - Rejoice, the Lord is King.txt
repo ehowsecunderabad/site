@@ -1,4 +1,5 @@
 [NUMBER] 39
+[LANGUAGE] English
 [TITLE] Rejoice, the Lord is King
 
 [Verse 1]

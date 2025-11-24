@@ -1,4 +1,5 @@
 ﻿[NUMBER] 543
+[LANGUAGE] Telugu
 [TITLE] సమూయేల్‌ వంటి చెవులను
 
 [VERSE 1]

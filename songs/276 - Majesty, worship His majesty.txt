@@ -1,4 +1,5 @@
 [NUMBER] 276
+[LANGUAGE] English
 [TITLE] Majesty, worship His majesty
 
 Majesty, worship His majesty,

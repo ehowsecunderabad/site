@@ -1,4 +1,5 @@
 [NUMBER] 299
+[LANGUAGE] English
 [TITLE] You are my strength
 
 You are my strength when I am weak,

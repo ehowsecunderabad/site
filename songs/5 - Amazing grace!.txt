@@ -1,4 +1,5 @@
 [NUMBER] 5
+[LANGUAGE] English
 [TITLE] Amazing grace!
 
 [Verse 1]

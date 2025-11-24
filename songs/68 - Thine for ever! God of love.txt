@@ -1,4 +1,5 @@
 [NUMBER] 68
+[LANGUAGE] English
 [TITLE] Thine for ever! God of love
 
 [Verse 1]

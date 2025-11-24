@@ -1,4 +1,5 @@
 [NUMBER] 243
+[LANGUAGE] English
 [TITLE] All Hail, King Jesus!
 
 All Hail, King Jesus!

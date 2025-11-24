@@ -1,4 +1,5 @@
 [NUMBER] 4
+[LANGUAGE] English
 [TITLE] All glory, laud, and honour
 
 [Chorus 1]

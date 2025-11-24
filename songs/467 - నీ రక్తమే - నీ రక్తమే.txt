@@ -1,4 +1,5 @@
 ﻿[NUMBER] 467
+[LANGUAGE] Telugu
 [TITLE] నీ రక్తమే - నీ రక్తమే
 
 నీ రక్తమే - నీ రక్తమే

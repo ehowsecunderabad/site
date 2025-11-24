@@ -1,4 +1,5 @@
 [NUMBER] 194
+[LANGUAGE] English
 [TITLE] Is your life
 
 Is your life a channel of blessing?

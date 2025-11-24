@@ -1,4 +1,5 @@
 ﻿[NUMBER] 440
+[LANGUAGE] Telugu
 [TITLE] నా ప్రాణ ప్రియుడ యేసురాజా
 
 [VERSE 1]

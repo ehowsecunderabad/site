@@ -1,4 +1,5 @@
 [NUMBER] 147
+[LANGUAGE] English
 [TITLE] A mighty fortress is our God
 
 A mighty fortress is our God,

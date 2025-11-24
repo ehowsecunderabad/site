@@ -1,4 +1,5 @@
 [NUMBER] 92
+[LANGUAGE] English
 [TITLE] Long time ago in Bethlehem
 
 [Verse 1]

@@ -1,4 +1,5 @@
 [NUMBER] 332
+[LANGUAGE] English
 [TITLE] Every day with Jesus
 
 Every day with Jesus,

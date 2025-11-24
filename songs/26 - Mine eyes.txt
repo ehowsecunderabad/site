@@ -1,4 +1,5 @@
 [NUMBER] 26
+[LANGUAGE] English
 [TITLE] Mine eyes
 
 [Verse 1]

@@ -1,4 +1,5 @@
 ﻿[NUMBER] 514
+[LANGUAGE] Telugu
 [TITLE] పావనుడా మా ప్రభువా
 
 పావనుడా మా ప్రభువా

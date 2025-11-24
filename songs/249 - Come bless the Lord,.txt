@@ -1,4 +1,5 @@
 [NUMBER] 249
+[LANGUAGE] English
 [TITLE] Come bless the Lord,
 
 Come bless the Lord,

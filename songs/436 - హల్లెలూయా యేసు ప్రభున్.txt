@@ -1,4 +1,5 @@
 ﻿[NUMBER] 436
+[LANGUAGE] Telugu
 [TITLE] హల్లెలూయా యేసు ప్రభున్
 
 [VERSE 1]

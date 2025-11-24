@@ -1,4 +1,5 @@
 ﻿[NUMBER] 509
+[LANGUAGE] Telugu
 [TITLE] గీతం గీతం జయ జయ గీతం
 
 గీతం గీతం జయ జయ గీతం

@@ -1,4 +1,5 @@
 [NUMBER] 42
+[LANGUAGE] English
 [TITLE] Thanks to God for my Redeemer
 
 [Verse 1]

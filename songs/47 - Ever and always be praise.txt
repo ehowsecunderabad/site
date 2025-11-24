@@ -1,4 +1,5 @@
 [NUMBER] 47
+[LANGUAGE] English
 [TITLE] Ever and always be praise
 
 [Verse 1]

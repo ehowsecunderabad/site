@@ -1,4 +1,5 @@
 [NUMBER] 248
+[LANGUAGE] English
 [TITLE] Clap you hands all you people,
 
 Clap your hands all you people,

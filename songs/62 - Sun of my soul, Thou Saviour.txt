@@ -1,4 +1,5 @@
 [NUMBER] 62
+[LANGUAGE] English
 [TITLE] Sun of my soul, Thou Saviour
 
 [Verse 1]

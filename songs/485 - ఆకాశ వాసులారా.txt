@@ -1,4 +1,5 @@
 ﻿[NUMBER] 485
+[LANGUAGE] Telugu
 [TITLE] ఆకాశ వాసులారా
 
 ఆకాశ వాసులారా

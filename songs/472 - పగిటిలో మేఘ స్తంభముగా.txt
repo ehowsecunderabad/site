@@ -1,4 +1,5 @@
 ﻿[NUMBER] 472
+[LANGUAGE] Telugu
 [TITLE] పగిటిలో మేఘ స్తంభముగా
 
 [VERSE 1]

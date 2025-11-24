@@ -1,4 +1,5 @@
 [NUMBER] 257
+[LANGUAGE] English
 [TITLE] Happiness is to know the Saviour
 
 Happiness is to know the Saviour

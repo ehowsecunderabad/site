@@ -1,4 +1,5 @@
 ﻿[NUMBER] 551
+[LANGUAGE] Telugu
 [TITLE] జీవితాంతము వరకు
 
 జీవితాంతము వరకు నీకే

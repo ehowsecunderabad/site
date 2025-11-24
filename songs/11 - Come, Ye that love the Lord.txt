@@ -1,4 +1,5 @@
 [NUMBER] 11
+[LANGUAGE] English
 [TITLE] Come, Ye that love the Lord
 
 [Verse 1]

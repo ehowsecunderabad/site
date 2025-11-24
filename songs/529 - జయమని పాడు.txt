@@ -1,4 +1,5 @@
 ﻿[NUMBER] 529
+[LANGUAGE] Telugu
 [TITLE] జయమని పాడు
 
 జయమని పాడు - జయమని పాడు

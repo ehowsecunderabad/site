@@ -1,4 +1,5 @@
 [NUMBER] 359
+[LANGUAGE] English
 [TITLE] For this purpose Christ
 
 For this purpose Christ was revealed

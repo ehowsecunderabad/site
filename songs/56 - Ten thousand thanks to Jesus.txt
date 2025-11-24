@@ -1,4 +1,5 @@
 [NUMBER] 56
+[LANGUAGE] English
 [TITLE] Ten thousand thanks to Jesus
 
 [Verse 1]

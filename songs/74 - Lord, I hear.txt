@@ -1,4 +1,5 @@
 [NUMBER] 74
+[LANGUAGE] English
 [TITLE] Lord, I hear
 
 [Verse 1]

@@ -1,4 +1,5 @@
 [NUMBER] 306
+[LANGUAGE] English
 [TITLE] Whose offereth praise
 
 Whose offereth praise, glorifieth Me;

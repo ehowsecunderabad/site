@@ -1,4 +1,5 @@
 [NUMBER] 198
+[LANGUAGE] English
 [TITLE] Shine on me, O Lord Jesus,
 
 Shine on me, O Lord Jesus,

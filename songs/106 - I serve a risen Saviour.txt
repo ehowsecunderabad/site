@@ -1,4 +1,5 @@
 [NUMBER] 106
+[LANGUAGE] English
 [TITLE] I serve a risen Saviour
 
 [Verse 1]

@@ -1,4 +1,5 @@
 [NUMBER] 252
+[LANGUAGE] English
 [TITLE] For I'm building a people
 
 For I'm building a people of power

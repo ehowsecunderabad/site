@@ -1,4 +1,5 @@
 [NUMBER] 427
+[LANGUAGE] English
 [TITLE] You laid aside Your majesty
 
 You laid aside Your majesty,

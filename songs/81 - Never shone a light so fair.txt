@@ -1,4 +1,5 @@
 [NUMBER] 81
+[LANGUAGE] English
 [TITLE] Never shone a light so fair
 
 [Verse 1]

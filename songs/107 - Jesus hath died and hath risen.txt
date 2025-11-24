@@ -1,4 +1,5 @@
 [NUMBER] 107
+[LANGUAGE] English
 [TITLE] Jesus hath died and hath risen
 
 [Verse 1]

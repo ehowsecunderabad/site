@@ -1,4 +1,5 @@
 [NUMBER] 10
+[LANGUAGE] English
 [TITLE] Come, Thou Fount
 
 [Verse 1]

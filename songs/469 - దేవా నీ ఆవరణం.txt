@@ -1,4 +1,5 @@
 ﻿[NUMBER] 469
+[LANGUAGE] Telugu
 [TITLE] దేవా నీ ఆవరణం
 
 దేవా నీ ఆవరణం

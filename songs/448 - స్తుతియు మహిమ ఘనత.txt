@@ -1,4 +1,5 @@
 ﻿[NUMBER] 448
+[LANGUAGE] Telugu
 [TITLE] స్తుతియు మహిమ ఘనత
 
 స్తుతియు మహిమ ఘనత నీకే

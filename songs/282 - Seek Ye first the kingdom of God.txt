@@ -1,4 +1,5 @@
 [NUMBER] 282
+[LANGUAGE] English
 [TITLE] Seek Ye first the kingdom of God
 
 Seek Ye first the kingdom of God

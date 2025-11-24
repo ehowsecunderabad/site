@@ -1,4 +1,5 @@
 [NUMBER] 2
+[LANGUAGE] English
 [TITLE] All creatures of our God and King
 
 [Verse 1]

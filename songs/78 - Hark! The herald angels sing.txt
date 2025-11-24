@@ -1,4 +1,5 @@
 [NUMBER] 78
+[LANGUAGE] English
 [TITLE] Hark! The herald angels sing
 
 [Verse 1]

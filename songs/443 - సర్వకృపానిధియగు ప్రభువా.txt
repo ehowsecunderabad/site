@@ -1,4 +1,5 @@
 ﻿[NUMBER] 443
+[LANGUAGE] Telugu
 [TITLE] సర్వకృపానిధియగు ప్రభువా
 
 [VERSE 1]

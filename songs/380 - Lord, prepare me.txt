@@ -1,4 +1,5 @@
 [NUMBER] 380
+[LANGUAGE] English
 [TITLE] Lord, prepare me
 
 Lord, prepare me, To be a sanctuary!

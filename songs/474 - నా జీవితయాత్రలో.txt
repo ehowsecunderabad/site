@@ -1,4 +1,5 @@
 ﻿[NUMBER] 474
+[LANGUAGE] Telugu
 [TITLE] నా జీవితయాత్రలో
 
 నా జీవితయాత్రలో

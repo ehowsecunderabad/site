@@ -1,4 +1,5 @@
 [NUMBER] 88
+[LANGUAGE] English
 [TITLE] Thou didst leave Thy throne
 [Verse 1]
 Thou didst leave Thy throne

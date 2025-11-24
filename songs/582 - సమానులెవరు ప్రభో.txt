@@ -1,4 +1,5 @@
 ﻿[NUMBER] 582
+[LANGUAGE] Telugu
 [TITLE] సమానులెవరు ప్రభో
 
 సమానులెవరు ప్రభో

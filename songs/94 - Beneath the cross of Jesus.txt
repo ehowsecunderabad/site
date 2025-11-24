@@ -1,4 +1,5 @@
 [NUMBER] 94
+[LANGUAGE] English
 [TITLE] Beneath the cross of Jesus
 
 [Verse 1]

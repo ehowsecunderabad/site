@@ -1,4 +1,5 @@
 [NUMBER] 57
+[LANGUAGE] English
 [TITLE] This, this is the God we adore
 
 [Verse 1]

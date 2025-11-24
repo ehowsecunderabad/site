@@ -1,4 +1,5 @@
 [NUMBER] 35
+[LANGUAGE] English
 [TITLE] Praise, my soul,
 
 [Verse 1]

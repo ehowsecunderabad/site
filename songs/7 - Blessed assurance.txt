@@ -1,4 +1,5 @@
 [NUMBER] 7
+[LANGUAGE] English
 [TITLE] Blessed assurance
 
 [Verse 1]

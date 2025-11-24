@@ -1,4 +1,5 @@
 [NUMBER] 318
+[LANGUAGE] English
 [TITLE] More love, More power
 
 More love, More power, more of

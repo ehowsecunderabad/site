@@ -1,4 +1,5 @@
 [NUMBER] 346
+[LANGUAGE] English
 [TITLE] Blessed be the name of the Lord
 
 Blessed be the name of the Lord

@@ -1,4 +1,5 @@
 ﻿[NUMBER] 511
+[LANGUAGE] Telugu
 [TITLE] ఎల్లవేళలందు
 
 ఎల్లవేళలందు కష్టకాలమందు

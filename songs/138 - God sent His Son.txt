@@ -1,4 +1,5 @@
 [NUMBER] 138
+[LANGUAGE] English
 [TITLE] God sent His Son
 
 God sent His Son, they called Him

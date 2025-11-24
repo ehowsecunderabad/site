@@ -1,4 +1,5 @@
 ﻿[NUMBER] 592
+[LANGUAGE] Telugu
 [TITLE] నిన్నే సేవింతునూ
 
 నిన్నే సేవింతునూ - (3)

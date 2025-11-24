@@ -1,4 +1,5 @@
 [NUMBER] 256
+[LANGUAGE] English
 [TITLE] Great is the Lord
 
 Great is the Lord, and greatly to be

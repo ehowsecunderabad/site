@@ -1,4 +1,5 @@
 [NUMBER] 354
+[LANGUAGE] English
 [TITLE] Don't hide your light
 
 Don't hide your light but let it shine

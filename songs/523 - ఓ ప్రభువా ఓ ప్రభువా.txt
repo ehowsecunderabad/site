@@ -1,4 +1,5 @@
 ﻿[NUMBER] 523
+[LANGUAGE] Telugu
 [TITLE] ఓ ప్రభువా ఓ ప్రభువా
 
 ఓ ప్రభువా ఓ ప్రభువా

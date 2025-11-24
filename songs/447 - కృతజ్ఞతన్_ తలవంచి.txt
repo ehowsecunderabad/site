@@ -1,4 +1,5 @@
 ﻿[NUMBER] 447
+[LANGUAGE] Telugu
 [TITLE] కృతజ్ఞతన్‌ తలవంచి
 
 కృతజ్ఞతన్‌ తలవంచి

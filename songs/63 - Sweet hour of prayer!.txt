@@ -1,4 +1,5 @@
 [NUMBER] 63
+[LANGUAGE] English
 [TITLE] Sweet hour of prayer!
 
 [Verse 1]

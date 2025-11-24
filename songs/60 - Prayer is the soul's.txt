@@ -1,4 +1,5 @@
 [NUMBER] 60
+[LANGUAGE] English
 [TITLE] Prayer is the soul's
 
 [Verse 1]

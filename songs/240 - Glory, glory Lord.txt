@@ -1,4 +1,5 @@
 [NUMBER] 240
+[LANGUAGE] English
 [TITLE] Glory, glory Lord
 
 Glory, glory Lord

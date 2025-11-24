@@ -1,4 +1,5 @@
 [NUMBER] 105
+[LANGUAGE] English
 [TITLE] Christ, the Lord, is risen today
 
 [Verse 1]

@@ -1,4 +1,5 @@
 ﻿[NUMBER] 536
+[LANGUAGE] Telugu
 [TITLE] క్రొత్త గీతము చే నా యుల్ల
 
 [VERSE 1]

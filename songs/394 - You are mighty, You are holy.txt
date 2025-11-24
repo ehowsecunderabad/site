@@ -1,4 +1,5 @@
 [NUMBER] 394
+[LANGUAGE] English
 [TITLE] You are mighty, You are holy
 
 You are mighty, You are holy,

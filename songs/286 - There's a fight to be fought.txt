@@ -1,4 +1,5 @@
 [NUMBER] 286
+[LANGUAGE] English
 [TITLE] There's a fight to be fought
 
 There's a fight to be fought,

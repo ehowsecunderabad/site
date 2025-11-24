@@ -1,4 +1,5 @@
 ﻿[NUMBER] 473
+[LANGUAGE] Telugu
 [TITLE] నీ మందిరమై నేనుండగా
 
 నీ మందిరమై నేనుండగా

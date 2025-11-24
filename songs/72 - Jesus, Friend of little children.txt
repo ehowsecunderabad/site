@@ -1,4 +1,5 @@
 [NUMBER] 72
+[LANGUAGE] English
 [TITLE] Jesus, Friend of little children
 
 [Verse 1]

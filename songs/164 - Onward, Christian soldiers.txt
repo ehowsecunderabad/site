@@ -1,4 +1,5 @@
 [NUMBER] 164
+[LANGUAGE] English
 [TITLE] Onward, Christian soldiers
 
 Onward, Christian soldiers,

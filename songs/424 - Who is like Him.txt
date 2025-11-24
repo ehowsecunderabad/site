@@ -1,4 +1,5 @@
 [NUMBER] 424
+[LANGUAGE] English
 [TITLE] Who is like Him
 
 Who is like Him, Lion and the Lamb

@@ -1,4 +1,5 @@
 ﻿[NUMBER] 597
+[LANGUAGE] Telugu
 [TITLE] ఏ సమయమందైనా
 
 పల్లవి:

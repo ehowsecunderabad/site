@@ -1,4 +1,5 @@
 [NUMBER] 341
+[LANGUAGE] English
 [TITLE] Praise God from whom all
 
 Praise God from whom all blessings

@@ -1,4 +1,5 @@
 [NUMBER] 392
+[LANGUAGE] English
 [TITLE] We want to see Jesus
 
 We want to see Jesus lifted high

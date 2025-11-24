@@ -1,4 +1,5 @@
 ﻿[NUMBER] 449
+[LANGUAGE] Telugu
 [TITLE] యెహోవా నా బలమా
 
 యెహోవా నా బలమా

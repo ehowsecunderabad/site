@@ -1,4 +1,5 @@
 [NUMBER] 187
+[LANGUAGE] English
 [TITLE] Lord, dismiss us
 
 Lord, dismiss us with Thy blessing,

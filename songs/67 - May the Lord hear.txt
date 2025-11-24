@@ -1,4 +1,5 @@
 [NUMBER] 67
+[LANGUAGE] English
 [TITLE] May the Lord hear
 
 [Verse 1]

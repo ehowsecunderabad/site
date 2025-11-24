@@ -1,4 +1,5 @@
 [NUMBER] 368
+[LANGUAGE] English
 [TITLE] Holy, holy, holy Lord
 
 Holy, holy, holy Lord,

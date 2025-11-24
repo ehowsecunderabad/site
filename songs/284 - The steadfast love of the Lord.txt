@@ -1,4 +1,5 @@
 [NUMBER] 284
+[LANGUAGE] English
 [TITLE] The steadfast love of the Lord
 
 The steadfast love of the Lord never

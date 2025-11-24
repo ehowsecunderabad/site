@@ -1,4 +1,5 @@
 [NUMBER] 308
+[LANGUAGE] English
 [TITLE] All honor, all glory,
 
 All honor, all glory, all power to

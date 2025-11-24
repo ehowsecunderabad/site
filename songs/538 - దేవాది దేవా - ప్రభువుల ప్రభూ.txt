@@ -1,4 +1,5 @@
 ﻿[NUMBER] 538
+[LANGUAGE] Telugu
 [TITLE] దేవాది దేవా
 
 దేవాది దేవా - ప్రభువుల ప్రభూ

@@ -1,4 +1,5 @@
 ﻿[NUMBER] 586
+[LANGUAGE] Telugu
 [TITLE] చాటించుడి మనుష్యజాతి
 
 [VERSE 1]

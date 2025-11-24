@@ -1,4 +1,5 @@
 ﻿[NUMBER] 542
+[LANGUAGE] Telugu
 [TITLE] స్తుతించి పాడి పొగెదము
 
 [VERSE 1]

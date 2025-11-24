@@ -1,4 +1,5 @@
 [NUMBER] 59
+[LANGUAGE] English
 [TITLE] Jesus, Lover of my soul
 
 [Verse 1]

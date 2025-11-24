@@ -1,4 +1,5 @@
 [NUMBER] 344
+[LANGUAGE] English
 [TITLE] Therefore the redeemed
 
 Therefore the redeemed of the Lord

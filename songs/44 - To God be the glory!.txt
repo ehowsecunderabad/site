@@ -1,4 +1,5 @@
 [NUMBER] 44
+[LANGUAGE] English
 [TITLE] To God be the glory!
 
 [Verse 1]

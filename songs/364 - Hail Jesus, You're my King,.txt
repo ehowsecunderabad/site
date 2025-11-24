@@ -1,4 +1,5 @@
 [NUMBER] 364
+[LANGUAGE] English
 [TITLE] Hail Jesus, You're my King,
 
 Hail Jesus, You're my King,

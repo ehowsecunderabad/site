@@ -1,4 +1,5 @@
 [NUMBER] 390
+[LANGUAGE] English
 [TITLE] The Lord reigns, The Lord reigns,
 
 The Lord reigns, The Lord reigns,

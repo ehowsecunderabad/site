@@ -1,4 +1,5 @@
 [NUMBER] 234
+[LANGUAGE] English
 [TITLE] Thank you, Lord
 
 Thank you, Lord, for saving my soul,

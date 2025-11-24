@@ -1,4 +1,5 @@
 ﻿[NUMBER] 568
+[LANGUAGE] Telugu
 [TITLE] ఇదికోతకు సమయం
 
 ఇదికోతకు సమయం

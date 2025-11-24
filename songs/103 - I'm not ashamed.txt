@@ -1,4 +1,5 @@
 [NUMBER] 103
+[LANGUAGE] English
 [TITLE] I'm not ashamed
 
 [Verse 1]

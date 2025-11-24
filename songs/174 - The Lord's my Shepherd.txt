@@ -1,4 +1,5 @@
 [NUMBER] 174
+[LANGUAGE] English
 [TITLE] The Lord's my Shepherd
 
 The Lord's my Shepherd,

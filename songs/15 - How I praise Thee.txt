@@ -1,4 +1,5 @@
 [NUMBER] 15
+[LANGUAGE] English
 [TITLE] How I praise Thee
 
 [Verse 1]

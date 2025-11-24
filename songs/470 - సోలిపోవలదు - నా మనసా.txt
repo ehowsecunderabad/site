@@ -1,4 +1,5 @@
 ﻿[NUMBER] 470
+[LANGUAGE] Telugu
 [TITLE] సోలిపోవలదు - నా మనసా
 
 సోలిపోవలదు

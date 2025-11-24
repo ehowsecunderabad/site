@@ -1,4 +1,5 @@
 [NUMBER] 139
+[LANGUAGE] English
 [TITLE] Guide me, O Thou great
 
 Guide me, O Thou great Jehovah,

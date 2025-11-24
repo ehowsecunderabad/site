@@ -1,4 +1,5 @@
 [NUMBER] 8
+[LANGUAGE] English
 [TITLE] Children of Jerusalem
 
 [Verse 1]

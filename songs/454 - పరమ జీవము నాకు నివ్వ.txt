@@ -1,4 +1,5 @@
 ﻿[NUMBER] 454
+[LANGUAGE] Telugu
 [TITLE] పరమ జీవము నాకు నివ్వ
 
 [VERSE 1]

@@ -1,4 +1,5 @@
 [NUMBER] 372
+[LANGUAGE] English
 [TITLE] In heavenly armour we'll
 
 In heavenly armour we'll enter the

@@ -1,4 +1,5 @@
 [NUMBER] 156
+[LANGUAGE] English
 [TITLE] Let us sing of His love
 
 Let us sing of His love once again '

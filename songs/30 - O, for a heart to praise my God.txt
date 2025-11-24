@@ -1,4 +1,5 @@
 [NUMBER] 30
+[LANGUAGE] English
 [TITLE] O, for a heart to praise my God
 
 [Verse 1]

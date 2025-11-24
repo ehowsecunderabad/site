@@ -1,4 +1,5 @@
 [NUMBER] 52
+[LANGUAGE] English
 [TITLE] O Thou whose hand
 
 [Verse 1]

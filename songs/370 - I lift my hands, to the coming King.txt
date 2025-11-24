@@ -1,4 +1,5 @@
 [NUMBER] 370
+[LANGUAGE] English
 [TITLE] I lift my hands, to the coming King
 
 I lift my hands, to the coming King,

@@ -1,4 +1,5 @@
 ﻿[NUMBER] 596
+[LANGUAGE] Telugu
 [TITLE] ఓ సంఘమా సర్వాంగమా
 
 ఓ సంఘమా సర్వాంగమా

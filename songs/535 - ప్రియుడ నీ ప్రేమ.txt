@@ -1,4 +1,5 @@
 ﻿[NUMBER] 535
+[LANGUAGE] Telugu
 [TITLE] ప్రియుడ నీ ప్రేమ
 
 [VERSE 1]

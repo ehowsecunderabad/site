@@ -1,4 +1,5 @@
 ﻿[NUMBER] 458
+[LANGUAGE] Telugu
 [TITLE] ప్రభుయేసు నా రక్షకా
 
 ప్రభుయేసు నా రక్షకా

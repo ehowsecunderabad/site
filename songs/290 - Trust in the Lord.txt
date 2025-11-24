@@ -1,4 +1,5 @@
 [NUMBER] 290
+[LANGUAGE] English
 [TITLE] Trust in the Lord
 
 Trust in the Lord and don't despair

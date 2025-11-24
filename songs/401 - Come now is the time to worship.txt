@@ -1,4 +1,5 @@
 [NUMBER] 401
+[LANGUAGE] English
 [TITLE] Come now is the time to worship
 
 Come now is the time to worship

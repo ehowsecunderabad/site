@@ -1,4 +1,5 @@
 [NUMBER] 342
+[LANGUAGE] English
 [TITLE] Praise the name of Jesus
 
 Praise the name of Jesus ' (2)He's my

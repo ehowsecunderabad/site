@@ -1,4 +1,5 @@
 [NUMBER] 87
+[LANGUAGE] English
 [TITLE] There's not a friend like
 
 [Verse 1]

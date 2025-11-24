@@ -1,4 +1,5 @@
 [NUMBER] 425
+[LANGUAGE] English
 [TITLE] You're the King of kings
 
 You're the King of kings Lord of

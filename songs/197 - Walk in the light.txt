@@ -1,4 +1,5 @@
 [NUMBER] 197
+[LANGUAGE] English
 [TITLE] Walk in the light
 
 Walk in the light, so shalt thou know

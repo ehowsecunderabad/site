@@ -1,4 +1,5 @@
 [NUMBER] 20
+[LANGUAGE] English
 [TITLE] I will sing the wondrous story
 
 [Verse 1]

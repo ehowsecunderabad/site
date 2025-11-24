@@ -1,4 +1,5 @@
 ﻿[NUMBER] 476
+[LANGUAGE] Telugu
 [TITLE] దేవా మహోన్నతుడా
 
 దేవా మహోన్నతుడా

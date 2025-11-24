@@ -1,4 +1,5 @@
 [NUMBER] 50
+[LANGUAGE] English
 [TITLE] I sing of the Almighty God
 
 [Verse 1]

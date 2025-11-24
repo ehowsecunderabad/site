@@ -1,4 +1,5 @@
 [NUMBER] 40
+[LANGUAGE] English
 [TITLE] Sing the wondrous love of Jesus
 
 [Verse 1]

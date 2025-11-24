@@ -1,4 +1,5 @@
 [NUMBER] 626
+[LANGUAGE] Hindi
 [TITLE] Thera phazal kyahai ajeeb
 
 Thera phazal kya hai ajeeb

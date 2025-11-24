@@ -1,4 +1,5 @@
 [NUMBER] 13
+[LANGUAGE] English
 [TITLE] Hail to the Lord's anointed
 
 [Verse 1]

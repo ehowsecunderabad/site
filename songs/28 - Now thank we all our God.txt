@@ -1,4 +1,5 @@
 [NUMBER] 28
+[LANGUAGE] English
 [TITLE] Now thank we all our God
 
 [Verse 1]

@@ -1,4 +1,5 @@
 [NUMBER] 82
+[LANGUAGE] English
 [TITLE] O, come, all ye faithful
 
 [Verse 1]

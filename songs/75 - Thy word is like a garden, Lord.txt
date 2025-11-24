@@ -1,4 +1,5 @@
 [NUMBER] 75
+[LANGUAGE] English
 [TITLE] Thy word is like a garden, Lord
 
 [Verse 1]

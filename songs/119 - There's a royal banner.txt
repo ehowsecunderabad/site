@@ -1,4 +1,5 @@
 [NUMBER] 119
+[LANGUAGE] English
 [TITLE] There's a royal banner
 
 [Verse 1]

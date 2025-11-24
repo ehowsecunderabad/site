@@ -1,4 +1,5 @@
 ﻿[NUMBER] 583
+[LANGUAGE] Telugu
 [TITLE] మహాదేవా - మహోన్నతుడ
 
 మహాదేవా - మహోన్నతుడ

@@ -1,4 +1,5 @@
 [NUMBER] 113
+[LANGUAGE] English
 [TITLE] When the trumpet of the Lord
 
 [Verse 1]

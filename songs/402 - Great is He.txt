@@ -1,4 +1,5 @@
 [NUMBER] 402
+[LANGUAGE] English
 [TITLE] Great is He
 
 Great is He who's the King of Kings

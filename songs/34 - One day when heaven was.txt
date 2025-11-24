@@ -1,4 +1,5 @@
 [NUMBER] 34
+[LANGUAGE] English
 [TITLE] One day when heaven was
 
 [Verse 1]

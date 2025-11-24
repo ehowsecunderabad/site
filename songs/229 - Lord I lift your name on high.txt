@@ -1,4 +1,5 @@
 [NUMBER] 229
+[LANGUAGE] English
 [TITLE] Lord I lift your name on high
 
 Lord I lift your name on high,

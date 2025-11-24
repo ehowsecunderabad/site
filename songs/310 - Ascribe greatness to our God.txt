@@ -1,4 +1,5 @@
 [NUMBER] 310
+[LANGUAGE] English
 [TITLE] Ascribe greatness to our God
 
 Ascribe greatness to our God, the

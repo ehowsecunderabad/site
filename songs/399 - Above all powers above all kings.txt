@@ -1,4 +1,5 @@
 [NUMBER] 399
+[LANGUAGE] English
 [TITLE] Above all powers above all kings
 
 Above all powers above all kings

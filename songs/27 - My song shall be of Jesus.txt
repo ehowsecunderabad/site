@@ -1,4 +1,5 @@
 [NUMBER] 27
+[LANGUAGE] English
 [TITLE] My song shall be of Jesus
 
 [Verse 1]

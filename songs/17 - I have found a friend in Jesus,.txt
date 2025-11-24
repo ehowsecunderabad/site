@@ -1,4 +1,5 @@
 [NUMBER] 17
+[LANGUAGE] English
 [TITLE] I have found a friend in Jesus,
 
 [Verse 1]

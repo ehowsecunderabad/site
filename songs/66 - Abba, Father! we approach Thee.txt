@@ -1,4 +1,5 @@
 [NUMBER] 66
+[LANGUAGE] English
 [TITLE] Abba, Father! we approach Thee
 
 [Verse 1]

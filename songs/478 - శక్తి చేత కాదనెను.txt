@@ -1,4 +1,5 @@
 ﻿[NUMBER] 478
+[LANGUAGE] Telugu
 [TITLE] శక్తి చేత కాదనెను
 
 శక్తి చేత కాదనెను

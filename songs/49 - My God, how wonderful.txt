@@ -1,4 +1,5 @@
 [NUMBER] 49
+[LANGUAGE] English
 [TITLE] My God, how wonderful
 
 [Verse 1]

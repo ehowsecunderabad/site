@@ -1,4 +1,5 @@
 ﻿[NUMBER] 574
+[LANGUAGE] Telugu
 [TITLE] మహిమ నీకే ప్రభూ
 
 మహిమ నీకే ప్రభూ

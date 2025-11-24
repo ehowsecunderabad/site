@@ -1,4 +1,5 @@
 [NUMBER] 93
+[LANGUAGE] English
 [TITLE] I've found a Friend
 
 [Verse 1]

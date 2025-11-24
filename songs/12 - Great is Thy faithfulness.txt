@@ -1,4 +1,5 @@
 [NUMBER] 12
+[LANGUAGE] English
 [TITLE] Great is Thy faithfulness
 
 [Verse 1]

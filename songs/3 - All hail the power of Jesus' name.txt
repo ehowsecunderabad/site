@@ -1,4 +1,5 @@
 [NUMBER] 3
+[LANGUAGE] English
 [TITLE] All hail the power of Jesus' name
 
 [Verse 1]

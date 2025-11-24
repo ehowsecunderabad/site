@@ -1,4 +1,5 @@
 [NUMBER] 73
+[LANGUAGE] English
 [TITLE] Guard the Bible well
 
 [Verse 1]

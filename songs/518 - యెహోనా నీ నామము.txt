@@ -1,4 +1,5 @@
 ﻿[NUMBER] 518
+[LANGUAGE] Telugu
 [TITLE] యెహోనా నీ నామము
 
 యెహోవా నీ నామము

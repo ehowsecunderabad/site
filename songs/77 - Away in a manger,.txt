@@ -1,4 +1,5 @@
 [NUMBER] 77
+[LANGUAGE] English
 [TITLE] Away in a manger,
 
 [Verse 1]

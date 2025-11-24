@@ -1,4 +1,5 @@
 [NUMBER] 33
+[LANGUAGE] English
 [TITLE] O, worship the King
 
 [Verse 1]

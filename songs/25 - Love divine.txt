@@ -1,4 +1,5 @@
 [NUMBER] 25
+[LANGUAGE] English
 [TITLE] Love divine
 
 [Verse 1]

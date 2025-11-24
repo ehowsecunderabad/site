@@ -1,4 +1,5 @@
 [NUMBER] 225
+[LANGUAGE] English
 [TITLE] Am I a soldier of the Cross
 
 Am I a soldier of the Cross

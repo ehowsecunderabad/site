@@ -1,4 +1,5 @@
 [NUMBER] 293
+[LANGUAGE] English
 [TITLE] We are one in the Spirit
 
 We are one in the Spirit,

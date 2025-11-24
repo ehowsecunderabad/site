@@ -1,4 +1,5 @@
 [NUMBER] 287
+[LANGUAGE] English
 [TITLE] Thou art worthy, Thou art worthy
 
 Thou art worthy, Thou art worthy,

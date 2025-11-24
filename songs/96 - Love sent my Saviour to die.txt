@@ -1,4 +1,5 @@
 [NUMBER] 96
+[LANGUAGE] English
 [TITLE] Love sent my Saviour to die
 
 [Verse 1]

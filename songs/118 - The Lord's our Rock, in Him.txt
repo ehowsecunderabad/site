@@ -1,4 +1,5 @@
 [NUMBER] 118
+[LANGUAGE] English
 [TITLE] The Lord's our Rock, in Him
 
 [Verse 1]

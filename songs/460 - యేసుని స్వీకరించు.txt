@@ -1,4 +1,5 @@
 ﻿[NUMBER] 460
+[LANGUAGE] Telugu
 [TITLE] యేసుని స్వీకరించు
 
 యేసుని స్వీకరించు

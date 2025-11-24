@@ -1,4 +1,5 @@
 [NUMBER] 288
+[LANGUAGE] English
 [TITLE] Thou will keep him
 
 Thou will keep him in perfect peace (3)

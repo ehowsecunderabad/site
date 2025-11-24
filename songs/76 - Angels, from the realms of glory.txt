@@ -1,4 +1,5 @@
 [NUMBER] 76
+[LANGUAGE] English
 [TITLE] Angels, from the realms of glory
 
 [Verse 1]

@@ -1,4 +1,5 @@
 [NUMBER] 246
+[LANGUAGE] English
 [TITLE] Bind us together, Lord,
 
 Bind us together, Lord,

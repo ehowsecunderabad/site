@@ -1,4 +1,5 @@
 [NUMBER] 53
+[LANGUAGE] English
 [TITLE] All things bright and beautiful
 
 [Chorus 1]

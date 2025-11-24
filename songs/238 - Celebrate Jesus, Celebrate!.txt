@@ -1,4 +1,5 @@
 [NUMBER] 238
+[LANGUAGE] English
 [TITLE] Celebrate Jesus, Celebrate!
 
 Celebrate Jesus, Celebrate!
