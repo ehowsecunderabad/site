@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YouTube Live Streams</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --primary-color: #1f2937;
+      --secondary-color: #3b82f6;
+      --border-color: #e5e7eb;
+      --hover-bg: #f3f4f6;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      margin: 0;
+      background-color: #fff;
+    }
+
+    @media (min-width: 768px) {
+      body {
+        padding: 2rem;
+      }
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1280px;
+    }
+
+    h1 {
+      font-size: clamp(1.75rem, 1rem + 2vw, 2.5rem);
+      text-align: center;
+      margin: 0 0 1.5rem;
+      color: var(--primary-color);
+    }
+
+
+
+    .embed-container {
+      margin-bottom: 2rem;
+      display: none;
+      text-align: center;
+    }
+
+    .embed-container.active {
+      display: block;
+    }
+
+    .embed-container iframe {
+      width: 100%;
+      max-width: 960px;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      border: none;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .embed-container iframe {
+        max-width: 100%;
+      }
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      width: 100%;
+    }
+
+    @media (max-width: 640px) {
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+    }
+
+    .card {
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #fff;
+      transition: all 0.2s ease;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .thumb {
+      width: 100%;
+      display: block;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+      background-color: var(--hover-bg);
+    }
+
+    .meta {
+      padding: 1rem;
+    }
+
+    .title {
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+      font-size: 1.05rem;
+      line-height: 1.4;
+      color: var(--primary-color);
+    }
+
+    .time {
+      color: #6b7280;
+      font-size: 0.9rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 0.5rem 1rem;
+      border: 1px solid var(--border-color);
+      background: var(--hover-bg);
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: all 0.2s ease;
+      flex: 1;
+      min-width: 120px;
+    }
+
+    .btn:hover {
+      background-color: var(--secondary-color);
+      color: white;
+      border-color: var(--secondary-color);
+    }
+
+    .btn-primary {
+      background-color: var(--secondary-color);
+      color: white;
+      border-color: var(--secondary-color);
+    }
+
+    .btn-primary:hover {
+      background-color: #2563eb;
+      border-color: #2563eb;
+    }
+
+    a.btn {
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: #6b7280;
+    }
+
+    .empty-state p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #6b7280;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Live Streams</h1>
+
+    <div class="embed-container" id="embed-container">
+      <iframe id="player" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id="live-section" style="display: none;">
+      <h2 style="margin: 2rem 0 1rem; font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem); color: var(--primary-color);">Live Now</h2>
+      <div class="loading" id="live-loading">Loading live streams...</div>
+      <div class="grid" id="live-list" role="list"></div>
+    </div>
+
+    <div id="upcoming-section" style="display: none;">
+      <h2 style="margin: 2rem 0 1rem; font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem); color: var(--primary-color);">Upcoming Live Streams</h2>
+      <div class="loading" id="upcoming-loading">Loading upcoming streams...</div>
+      <div class="grid" id="upcoming-list" role="list"></div>
+    </div>
+
+    <div>
+      <h2 style="margin: 2rem 0 1rem; font-size: clamp(1.25rem, 1rem + 1vw, 1.75rem); color: var(--primary-color);">Past Week</h2>
+      <div class="loading" id="past-loading">Loading past week streams...</div>
+      <div class="grid" id="past-list" role="list"></div>
+    </div>
+  </div>
+
+  <script>
+    const CACHE_URLS = {
+      live: 'https://ehowsecunderabad.github.io/site/live_cache.json',
+      upcoming: 'https://ehowsecunderabad.github.io/site/upcoming_cache.json',
+      past: 'https://ehowsecunderabad.github.io/site/past_week_cache.json'
+    };
+
+    const state = {
+      data: { live: [], upcoming: [], past: [] }
+    };
+
+    async function fetchStreams(type) {
+      try {
+        const cacheUrl = CACHE_URLS[type];
+        const res = await fetch(`${cacheUrl}?t=${new Date().getTime()}`);
+        if (!res.ok) throw new Error(`API error: ${res.status}`);
+        const data = await res.json();
+        state.data[type] = data.items || [];
+        renderTab(type);
+      } catch (err) {
+        console.error(`Failed to load ${type} streams:`, err);
+        showError(type, `Failed to load ${type} streams.`);
+      }
+    }
+
+    function renderTab(type) {
+      const listContainer = document.getElementById(`${type}-list`);
+      const loadingContainer = document.getElementById(`${type}-loading`);
+      const sectionContainer = document.getElementById(`${type}-section`);
+      const items = state.data[type];
+
+      if (loadingContainer) loadingContainer.style.display = 'none';
+      listContainer.innerHTML = '';
+
+      if (!items.length) {
+        // Hide section if empty for live/upcoming
+        if (type === 'live' || type === 'upcoming') {
+          if (sectionContainer) sectionContainer.style.display = 'none';
+        } else {
+          const emptyMsg = {
+            past: 'No completed live streams found from the past week.'
+          };
+          listContainer.innerHTML = `<div class="empty-state"><p>${emptyMsg[type]}</p></div>`;
+        }
+        return;
+      }
+
+      // Show section if it has content
+      if (sectionContainer && (type === 'live' || type === 'upcoming')) {
+        sectionContainer.style.display = 'block';
+      }
+
+      items.forEach(item => {
+        const card = createCard(item, type);
+        listContainer.appendChild(card);
+      });
+    }
+
+    function createCard(item, type) {
+      const vid = item.id;
+      const s = item.snippet;
+      const thumb = (s.thumbnails.high || s.thumbnails.medium || s.thumbnails.default).url;
+
+      let timeLabel = '';
+      let timeValue = '';
+
+      if (type === 'live') {
+        timeLabel = 'Started: ';
+        timeValue = item.liveStreamingDetails?.actualStartTime || s.publishTime;
+      } else if (type === 'upcoming') {
+        timeLabel = 'Scheduled: ';
+        timeValue = item.liveStreamingDetails?.scheduledStartTime || s.publishTime;
+      } else {
+        timeLabel = 'Streamed: ';
+        timeValue = s.publishedAt;
+      }
+
+      const date = new Date(timeValue);
+      const formattedTime = date.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' });
+
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.setAttribute('role', 'listitem');
+      card.innerHTML = `
+        <img class="thumb" src="${thumb}" alt="Thumbnail for ${escapeHtml(s.title)}" loading="lazy" />
+        <div class="meta">
+          <h3 class="title">${escapeHtml(s.title)}</h3>
+          <div class="time">${timeLabel}${formattedTime}</div>
+          <div class="actions">
+            <button class="btn btn-primary" data-vid="${vid}" data-title="${escapeHtml(s.title)}">
+              ${type === 'upcoming' ? 'Embed' : 'Watch'}
+            </button>
+            <a class="btn" href="https://www.youtube.com/watch?v=${vid}" target="_blank" rel="noopener noreferrer">
+              YouTube
+            </a>
+          </div>
+        </div>
+      `;
+
+      card.querySelector(`button[data-vid]`).addEventListener('click', (e) => {
+        const videoId = e.currentTarget.getAttribute('data-vid');
+        showEmbed(videoId);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      return card;
+    }
+
+    function showEmbed(videoId) {
+      const container = document.getElementById('embed-container');
+      const player = document.getElementById('player');
+      player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+      container.classList.add('active');
+    }
+
+    function showError(type, message) {
+      const listContainer = document.getElementById(`${type}-list`);
+      const loadingContainer = document.getElementById(`${type}-loading`);
+      const sectionContainer = document.getElementById(`${type}-section`);
+      if (loadingContainer) loadingContainer.style.display = 'none';
+      
+      // Hide section if error for live/upcoming
+      if (type === 'live' || type === 'upcoming') {
+        if (sectionContainer) sectionContainer.style.display = 'none';
+      } else {
+        listContainer.innerHTML = `<div class="empty-state"><p>${escapeHtml(message)}</p></div>`;
+      }
+    }
+
+    function escapeHtml(str) {
+      const map = { "&":"&amp;", "<":"&lt;", ">":"&gt;", "\"":"&quot;", "'":"&#039;" };
+      return str.replace(/[&<>"']/g, m => map[m]);
+    }
+
+    (async () => {
+      await fetchStreams('live');
+      await fetchStreams('upcoming');
+      await fetchStreams('past');
+    })();
+  </script>
+</body>
+</html>
