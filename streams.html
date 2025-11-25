@@ -241,12 +241,26 @@
         if (!res.ok) throw new Error(`API error: ${res.status}`);
         const data = await res.json();
         state.data[type] = data.items || [];
+        // Debug: log how many items were fetched for this type
+        console.debug(`[streams] fetched ${type}:`, state.data[type] ? state.data[type].length : 0, 'items');
         renderTab(type);
       } catch (err) {
         console.error(`Failed to load ${type} streams:`, err);
         showError(type, `Failed to load ${type} streams.`);
       }
     }
+
+    // Periodically poll the live cache so the page picks up a newly started stream
+    let _livePollHandle = null;
+    function startLivePoll(intervalMs = 60000) {
+      if (_livePollHandle) return;
+      _livePollHandle = setInterval(() => {
+        console.debug('[streams] polling live cache');
+        fetchStreams('live');
+      }, intervalMs);
+    }
+
+    
 
     function renderTab(type) {
       const listContainer = document.getElementById(`${type}-list`);
@@ -282,9 +296,21 @@
     }
 
     function createCard(item, type) {
-      const vid = item.id;
-      const s = item.snippet;
-      const thumb = (s.thumbnails.high || s.thumbnails.medium || s.thumbnails.default).url;
+      // Determine video id from multiple possible API shapes
+      let vid = '';
+      if (typeof item.id === 'string') {
+        vid = item.id;
+      } else if (item.id && typeof item.id === 'object') {
+        vid = item.id.videoId || item.id.videoID || item.id.channelId || item.id.playlistId || '';
+      }
+      // Some caches put the id under snippet.resourceId.videoId
+      if (!vid && item.snippet && item.snippet.resourceId) {
+        vid = item.snippet.resourceId.videoId || item.snippet.resourceId.videoID || '';
+      }
+
+      const s = item.snippet || {};
+      // Fallback thumbnail if snippet thumbnails are missing
+      const thumb = (s.thumbnails && (s.thumbnails.high || s.thumbnails.medium || s.thumbnails.default) && (s.thumbnails.high || s.thumbnails.medium || s.thumbnails.default).url) || (vid ? `https://i.ytimg.com/vi/${vid}/hqdefault.jpg` : '');
 
       let timeLabel = '';
       let timeValue = '';
