@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "QWm1dRkSqr6sFP-dfPAJUsDh86E",
+      "etag": "97KYb73eOEvVjQm_3-v-Kjjr2vg",
       "id": "oiIzXlGkzHo",
       "snippet": {
         "publishedAt": "2025-11-25T14:32:04Z",
@@ -64,14 +64,16 @@
         "localized": {
           "title": "test live",
           "description": ""
-        }
+        },
+        "defaultAudioLanguage": "en"
       },
       "liveStreamingDetails": {
         "actualStartTime": "2025-11-25T14:32:38Z",
         "scheduledStartTime": "2025-11-25T14:32:04Z",
+        "concurrentViewers": "1",
         "activeLiveChatId": "Cg0KC29pSXpYbEdrekhvKicKGFVDOTVndjYwNjBKclJONDVjTVU3Vkd3ZxILb2lJelhsR2t6SG8"
       }
     }
   ],
-  "generatedAt": "2025-11-25T15:12:04.094Z"
+  "generatedAt": "2025-11-25T15:16:11.371Z"
 }
