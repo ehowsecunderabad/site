@@ -78,7 +78,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "Qf8G1mRVqjwfUDnAjzPe1RjoEvw",
+      "etag": "PyzvSIKru6k2uVkumeNKLhV6YxY",
       "id": "HHRva8-7Oxo",
       "snippet": {
         "publishedAt": "2025-11-29T03:18:25Z",
@@ -223,5 +223,5 @@
       }
     }
   ],
-  "generatedAt": "2025-11-30T15:38:08.399Z"
+  "generatedAt": "2025-11-30T15:47:07.251Z"
 }
