@@ -1,6 +1,6 @@
 name: Update YouTube Cache
 
-# How the action is triggered
+# How the action is triggered.
 on:
   # 1. Allows you to run it manually from the Actions tab in GitHub
   workflow_dispatch:
