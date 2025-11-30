@@ -1,0 +1,13 @@
+{
+  "name": "ehow-youtube-webhook",
+  "version": "1.0.0",
+  "description": "Simple receiver for YouTube WebSub notifications that triggers GitHub workflow",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "fast-xml-parser": "^4.2.4"
+  }
+}
