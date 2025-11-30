@@ -19,6 +19,8 @@ jobs:
       # 1. Checks out your repository code so the action can access it
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          clean: true
 
       # 1b. Rebase on origin/main first (before any changes) to handle diverged branches
       - name: Rebase on origin/main
