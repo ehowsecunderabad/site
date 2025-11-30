@@ -38,9 +38,21 @@ jobs:
           YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
         run: node update-cache.js
 
+      # 4b. Rebase before committing to handle diverged branches cleanly
+      - name: Rebase on origin/main
+        run: |
+          git fetch origin main
+          git rebase origin/main || {
+            echo "Rebase conflict detected; aborting rebase"
+            git rebase --abort
+            exit 1
+          }
+
       # 5. Checks if any *.json files have changed and commits them back to the repo
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: Update YouTube cache files'
           file_pattern: '*.json'
+          skip_fetch: true
+          create_branch: false

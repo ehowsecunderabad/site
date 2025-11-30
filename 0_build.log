@@ -1,0 +1,717 @@
+﻿2025-11-30T00:57:44.0066570Z Current runner version: '2.329.0'
+2025-11-30T00:57:44.0091403Z ##[group]Runner Image Provisioner
+2025-11-30T00:57:44.0092260Z Hosted Compute Agent
+2025-11-30T00:57:44.0092896Z Version: 20251016.436
+2025-11-30T00:57:44.0093566Z Commit: 8ab8ac8bfd662a3739dab9fe09456aba92132568
+2025-11-30T00:57:44.0094339Z Build Date: 2025-10-15T20:44:12Z
+2025-11-30T00:57:44.0094968Z ##[endgroup]
+2025-11-30T00:57:44.0095515Z ##[group]Operating System
+2025-11-30T00:57:44.0096070Z Ubuntu
+2025-11-30T00:57:44.0096548Z 24.04.3
+2025-11-30T00:57:44.0097042Z LTS
+2025-11-30T00:57:44.0097546Z ##[endgroup]
+2025-11-30T00:57:44.0098048Z ##[group]Runner Image
+2025-11-30T00:57:44.0098621Z Image: ubuntu-24.04
+2025-11-30T00:57:44.0099143Z Version: 20251112.124.1
+2025-11-30T00:57:44.0100173Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20251112.124/images/ubuntu/Ubuntu2404-Readme.md
+2025-11-30T00:57:44.0102145Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20251112.124
+2025-11-30T00:57:44.0103215Z ##[endgroup]
+2025-11-30T00:57:44.0104250Z ##[group]GITHUB_TOKEN Permissions
+2025-11-30T00:57:44.0106189Z Contents: write
+2025-11-30T00:57:44.0106840Z Metadata: read
+2025-11-30T00:57:44.0107369Z ##[endgroup]
+2025-11-30T00:57:44.0109802Z Secret source: Actions
+2025-11-30T00:57:44.0110572Z Prepare workflow directory
+2025-11-30T00:57:44.0433847Z Prepare all required actions
+2025-11-30T00:57:44.0471764Z Getting action download info
+2025-11-30T00:57:44.3641057Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2025-11-30T00:57:44.6700496Z Download action repository 'actions/setup-node@v4' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2025-11-30T00:57:44.7612525Z Download action repository 'stefanzweifel/git-auto-commit-action@v5' (SHA:b863ae1933cb653a53c021fe36dbb774e1fb9403)
+2025-11-30T00:57:45.0202945Z Complete job name: build
+2025-11-30T00:57:45.0940082Z ##[group]Run actions/checkout@v4
+2025-11-30T00:57:45.0941357Z with:
+2025-11-30T00:57:45.0941867Z   repository: ehowsecunderabad/site
+2025-11-30T00:57:45.0942847Z   token: ***
+2025-11-30T00:57:45.0943319Z   ssh-strict: true
+2025-11-30T00:57:45.0943811Z   ssh-user: git
+2025-11-30T00:57:45.0944330Z   persist-credentials: true
+2025-11-30T00:57:45.0944919Z   clean: true
+2025-11-30T00:57:45.0945428Z   sparse-checkout-cone-mode: true
+2025-11-30T00:57:45.0946106Z   fetch-depth: 1
+2025-11-30T00:57:45.0946585Z   fetch-tags: false
+2025-11-30T00:57:45.0947096Z   show-progress: true
+2025-11-30T00:57:45.0947610Z   lfs: false
+2025-11-30T00:57:45.0948069Z   submodules: false
+2025-11-30T00:57:45.0948599Z   set-safe-directory: true
+2025-11-30T00:57:45.0949403Z ##[endgroup]
+2025-11-30T00:57:45.2020185Z Syncing repository: ehowsecunderabad/site
+2025-11-30T00:57:45.2022933Z ##[group]Getting Git version info
+2025-11-30T00:57:45.2023844Z Working directory is '/home/runner/work/site/site'
+2025-11-30T00:57:45.2025178Z [command]/usr/bin/git version
+2025-11-30T00:57:45.2114637Z git version 2.51.2
+2025-11-30T00:57:45.2141038Z ##[endgroup]
+2025-11-30T00:57:45.2155835Z Temporarily overriding HOME='/home/runner/work/_temp/3ace451a-4ff8-4f60-8b06-9cfc1e1c9a19' before making global git config changes
+2025-11-30T00:57:45.2158145Z Adding repository directory to the temporary git global config as a safe directory
+2025-11-30T00:57:45.2169110Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/site/site
+2025-11-30T00:57:45.2207362Z Deleting the contents of '/home/runner/work/site/site'
+2025-11-30T00:57:45.2211229Z ##[group]Initializing the repository
+2025-11-30T00:57:45.2216208Z [command]/usr/bin/git init /home/runner/work/site/site
+2025-11-30T00:57:45.2345537Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-11-30T00:57:45.2347368Z hint: is subject to change. To configure the initial branch name to use in all
+2025-11-30T00:57:45.2349000Z hint: of your new repositories, which will suppress this warning, call:
+2025-11-30T00:57:45.2350544Z hint:
+2025-11-30T00:57:45.2351828Z hint: 	git config --global init.defaultBranch <name>
+2025-11-30T00:57:45.2353755Z hint:
+2025-11-30T00:57:45.2355146Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-11-30T00:57:45.2357816Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-11-30T00:57:45.2359758Z hint:
+2025-11-30T00:57:45.2360518Z hint: 	git branch -m <name>
+2025-11-30T00:57:45.2361790Z hint:
+2025-11-30T00:57:45.2363375Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2025-11-30T00:57:45.2365579Z Initialized empty Git repository in /home/runner/work/site/site/.git/
+2025-11-30T00:57:45.2367900Z [command]/usr/bin/git remote add origin https://github.com/ehowsecunderabad/site
+2025-11-30T00:57:45.2399882Z ##[endgroup]
+2025-11-30T00:57:45.2401422Z ##[group]Disabling automatic garbage collection
+2025-11-30T00:57:45.2403162Z [command]/usr/bin/git config --local gc.auto 0
+2025-11-30T00:57:45.2431689Z ##[endgroup]
+2025-11-30T00:57:45.2432942Z ##[group]Setting up auth
+2025-11-30T00:57:45.2437613Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-11-30T00:57:45.2467259Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-11-30T00:57:45.2831261Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-11-30T00:57:45.2860206Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-11-30T00:57:45.3076373Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2025-11-30T00:57:45.3106974Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2025-11-30T00:57:45.3355138Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-11-30T00:57:45.3377117Z ##[endgroup]
+2025-11-30T00:57:45.3378761Z ##[group]Fetching the repository
+2025-11-30T00:57:45.3388977Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +09ba8bbff8ffa55b5ff8eaba19d512baad92b14a:refs/remotes/origin/main
+2025-11-30T00:57:45.6070588Z From https://github.com/ehowsecunderabad/site
+2025-11-30T00:57:45.6072197Z  * [new ref]         09ba8bbff8ffa55b5ff8eaba19d512baad92b14a -> origin/main
+2025-11-30T00:57:45.6104377Z ##[endgroup]
+2025-11-30T00:57:45.6106416Z ##[group]Determining the checkout info
+2025-11-30T00:57:45.6108553Z ##[endgroup]
+2025-11-30T00:57:45.6112424Z [command]/usr/bin/git sparse-checkout disable
+2025-11-30T00:57:45.6154803Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-11-30T00:57:45.6182340Z ##[group]Checking out the ref
+2025-11-30T00:57:45.6185880Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-11-30T00:57:45.6539656Z Switched to a new branch 'main'
+2025-11-30T00:57:45.6541382Z branch 'main' set up to track 'origin/main'.
+2025-11-30T00:57:45.6550346Z ##[endgroup]
+2025-11-30T00:57:45.6586310Z [command]/usr/bin/git log -1 --format=%H
+2025-11-30T00:57:45.6608066Z 09ba8bbff8ffa55b5ff8eaba19d512baad92b14a
+2025-11-30T00:57:45.6902611Z ##[group]Run actions/setup-node@v4
+2025-11-30T00:57:45.6904135Z with:
+2025-11-30T00:57:45.6905306Z   node-version: 18
+2025-11-30T00:57:45.6906413Z   cache: npm
+2025-11-30T00:57:45.6907468Z   always-auth: false
+2025-11-30T00:57:45.6908575Z   check-latest: false
+2025-11-30T00:57:45.6909940Z   token: ***
+2025-11-30T00:57:45.6911125Z ##[endgroup]
+2025-11-30T00:57:45.8695862Z Attempting to download 18...
+2025-11-30T00:57:46.2139497Z Acquiring 18.20.8 - x64 from https://github.com/actions/node-versions/releases/download/18.20.8-14110393767/node-18.20.8-linux-x64.tar.gz
+2025-11-30T00:57:46.6161914Z Extracting ...
+2025-11-30T00:57:46.6263077Z [command]/usr/bin/tar xz --strip 1 --warning=no-unknown-keyword --overwrite -C /home/runner/work/_temp/85cfda38-4f7e-48d6-8531-e3de1f54572c -f /home/runner/work/_temp/c8b586ec-5968-4268-a63b-bd436515a2cc
+2025-11-30T00:57:47.5982522Z Adding to the cache ...
+2025-11-30T00:57:49.2046319Z ##[group]Environment details
+2025-11-30T00:57:49.4331657Z node: v18.20.8
+2025-11-30T00:57:49.4332331Z npm: 10.8.2
+2025-11-30T00:57:49.4332838Z yarn: 1.22.22
+2025-11-30T00:57:49.4333612Z ##[endgroup]
+2025-11-30T00:57:49.4352723Z [command]/opt/hostedtoolcache/node/18.20.8/x64/bin/npm config get cache
+2025-11-30T00:57:49.5484065Z /home/runner/.npm
+2025-11-30T00:57:49.6768574Z Cache hit for: node-cache-Linux-x64-npm-f475c6c2b2eab4c39827f3d958fd2b6b359713f07c88e8ab51270bcdf44fabc7
+2025-11-30T00:57:49.7172530Z Received 1062 of 1062 (100.0%), 0.1 MBs/sec
+2025-11-30T00:57:49.7173148Z Cache Size: ~0 MB (1062 B)
+2025-11-30T00:57:49.7197506Z [command]/usr/bin/tar -xf /home/runner/work/_temp/3d194ac8-7c76-4cb3-b2b1-3307a88b868d/cache.tzst -P -C /home/runner/work/site/site --use-compress-program unzstd
+2025-11-30T00:57:49.7260188Z Cache restored successfully
+2025-11-30T00:57:49.7264187Z Cache restored from key: node-cache-Linux-x64-npm-f475c6c2b2eab4c39827f3d958fd2b6b359713f07c88e8ab51270bcdf44fabc7
+2025-11-30T00:57:49.7403961Z ##[group]Run npm install
+2025-11-30T00:57:49.7404288Z [36;1mnpm install[0m
+2025-11-30T00:57:49.7443278Z shell: /usr/bin/bash -e {0}
+2025-11-30T00:57:49.7443549Z ##[endgroup]
+2025-11-30T00:57:50.5716327Z 
+2025-11-30T00:57:50.5722551Z up to date, audited 5 packages in 747ms
+2025-11-30T00:57:50.5728427Z 
+2025-11-30T00:57:50.5728683Z found 0 vulnerabilities
+2025-11-30T00:57:50.5837587Z ##[group]Run node update-cache.js
+2025-11-30T00:57:50.5837911Z [36;1mnode update-cache.js[0m
+2025-11-30T00:57:50.5870418Z shell: /usr/bin/bash -e {0}
+2025-11-30T00:57:50.5870802Z env:
+2025-11-30T00:57:50.5871175Z   YOUTUBE_API_KEY: ***
+2025-11-30T00:57:50.5871442Z   YOUTUBE_CHANNEL_ID: ***
+2025-11-30T00:57:50.5871658Z ##[endgroup]
+2025-11-30T00:57:50.6394225Z Starting YouTube cache update...
+2025-11-30T00:57:50.9028916Z --- Raw API Response from activities.list ---
+2025-11-30T00:57:50.9029643Z {
+2025-11-30T00:57:50.9030076Z   "kind": "youtube#activityListResponse",
+2025-11-30T00:57:50.9030606Z   "etag": "qtP2hDfJtPuVBzvM_imjIWBm-yg",
+2025-11-30T00:57:50.9031128Z   "items": [
+2025-11-30T00:57:50.9031334Z     {
+2025-11-30T00:57:50.9031562Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9031881Z       "etag": "5DB9-_QcAeptIcFy7qVeC37bCRw",
+2025-11-30T00:57:50.9032228Z       "id": "MTUxNzY0Mzg2Mzk3MTc2NDM4NjM5NzAwMDcxNw",
+2025-11-30T00:57:50.9032591Z       "contentDetails": {
+2025-11-30T00:57:50.9032811Z         "upload": {
+2025-11-30T00:57:50.9033047Z           "videoId": "PULjdZ6d2HQ"
+2025-11-30T00:57:50.9033278Z         }
+2025-11-30T00:57:50.9033447Z       }
+2025-11-30T00:57:50.9033612Z     },
+2025-11-30T00:57:50.9033772Z     {
+2025-11-30T00:57:50.9033982Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9034281Z       "etag": "WfIA86OX44UXSqt4dVssbKVUoVA",
+2025-11-30T00:57:50.9034637Z       "id": "MTUxNzY0Mzg2MzA1MTc2NDM4NjMwNTAwMDk0Nw",
+2025-11-30T00:57:50.9034943Z       "contentDetails": {
+2025-11-30T00:57:50.9035153Z         "upload": {
+2025-11-30T00:57:50.9035387Z           "videoId": "HHRva8-7Oxo"
+2025-11-30T00:57:50.9035616Z         }
+2025-11-30T00:57:50.9035811Z       }
+2025-11-30T00:57:50.9035993Z     },
+2025-11-30T00:57:50.9036159Z     {
+2025-11-30T00:57:50.9036362Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9036649Z       "etag": "CAbm6SMtjXkU3t2ISpHBfKfC9p8",
+2025-11-30T00:57:50.9036975Z       "id": "MTUxNzY0MjEyODAxMTc2NDIxMjgwMTAwMDkxMw",
+2025-11-30T00:57:50.9037325Z       "contentDetails": {
+2025-11-30T00:57:50.9037544Z         "upload": {
+2025-11-30T00:57:50.9037769Z           "videoId": "1NU8od69jNY"
+2025-11-30T00:57:50.9037996Z         }
+2025-11-30T00:57:50.9038172Z       }
+2025-11-30T00:57:50.9038390Z     },
+2025-11-30T00:57:50.9038552Z     {
+2025-11-30T00:57:50.9038755Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9039374Z       "etag": "yGcrytXKslpZ0-CSGUcxvHyewEI",
+2025-11-30T00:57:50.9039712Z       "id": "MTUxNzYzOTIzNzU0MTc2MzkyMzc1NDAwMDczOQ",
+2025-11-30T00:57:50.9040006Z       "contentDetails": {
+2025-11-30T00:57:50.9040222Z         "upload": {
+2025-11-30T00:57:50.9040445Z           "videoId": "MO0JyHXV69E"
+2025-11-30T00:57:50.9040911Z         }
+2025-11-30T00:57:50.9041119Z       }
+2025-11-30T00:57:50.9041289Z     },
+2025-11-30T00:57:50.9041453Z     {
+2025-11-30T00:57:50.9041659Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9041953Z       "etag": "ToYeejSJ_Y4o8yqyGXoLqJC3MfA",
+2025-11-30T00:57:50.9042298Z       "id": "MTUxNzYzOTEzODY2MTc2MzkxMzg2NjAwMDcxOQ",
+2025-11-30T00:57:50.9042592Z       "contentDetails": {
+2025-11-30T00:57:50.9042805Z         "upload": {
+2025-11-30T00:57:50.9043030Z           "videoId": "6MB3XhafdBE"
+2025-11-30T00:57:50.9043252Z         }
+2025-11-30T00:57:50.9043417Z       }
+2025-11-30T00:57:50.9043567Z     },
+2025-11-30T00:57:50.9043727Z     {
+2025-11-30T00:57:50.9043936Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9044215Z       "etag": "XRUga7bHkOqLMLgUjxSyI2mR5z4",
+2025-11-30T00:57:50.9044538Z       "id": "MTUxNzYzNjA4OTIxMTc2MzYwODkyMTAwMDU0OQ",
+2025-11-30T00:57:50.9044819Z       "contentDetails": {
+2025-11-30T00:57:50.9045026Z         "upload": {
+2025-11-30T00:57:50.9045362Z           "videoId": "_wIhez1vWbw"
+2025-11-30T00:57:50.9045726Z         }
+2025-11-30T00:57:50.9045993Z       }
+2025-11-30T00:57:50.9046257Z     },
+2025-11-30T00:57:50.9046532Z     {
+2025-11-30T00:57:50.9046857Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9047572Z       "etag": "Fi-AZ5sSIgGITzf44_Xh-b33I0s",
+2025-11-30T00:57:50.9047938Z       "id": "MTUxNzYzMzE5NTAwMTc2MzMxOTUwMDAwMDAwMQ",
+2025-11-30T00:57:50.9048232Z       "contentDetails": {
+2025-11-30T00:57:50.9048443Z         "upload": {
+2025-11-30T00:57:50.9048658Z           "videoId": "nTTuIERCRDQ"
+2025-11-30T00:57:50.9048883Z         }
+2025-11-30T00:57:50.9049046Z       }
+2025-11-30T00:57:50.9049207Z     },
+2025-11-30T00:57:50.9049373Z     {
+2025-11-30T00:57:50.9049571Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9049862Z       "etag": "XQKIlE9XbtLmqM9UStdtSZcGApc",
+2025-11-30T00:57:50.9050233Z       "id": "MTUxNzYzMzExNTUzMTc2MzMxMTU1MzAwMDc2Mg",
+2025-11-30T00:57:50.9050899Z       "contentDetails": {
+2025-11-30T00:57:50.9051139Z         "upload": {
+2025-11-30T00:57:50.9051371Z           "videoId": "3C-EqzycKhE"
+2025-11-30T00:57:50.9051739Z         }
+2025-11-30T00:57:50.9052022Z       }
+2025-11-30T00:57:50.9052293Z     },
+2025-11-30T00:57:50.9052561Z     {
+2025-11-30T00:57:50.9052910Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9053242Z       "etag": "aTUf1txFr6zfihCxKqDTRz33tNE",
+2025-11-30T00:57:50.9053584Z       "id": "MTUxNzYzMDAzNzg5MTc2MzAwMzc4OTAwMDA3OQ",
+2025-11-30T00:57:50.9053877Z       "contentDetails": {
+2025-11-30T00:57:50.9054124Z         "upload": {
+2025-11-30T00:57:50.9054340Z           "videoId": "OqivBPr2IQU"
+2025-11-30T00:57:50.9054564Z         }
+2025-11-30T00:57:50.9054735Z       }
+2025-11-30T00:57:50.9054892Z     },
+2025-11-30T00:57:50.9055055Z     {
+2025-11-30T00:57:50.9055250Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9055597Z       "etag": "PotqOVUCx_yGAS5dwC9Yh78GBzM",
+2025-11-30T00:57:50.9055935Z       "id": "MTUxNzYyNzE0MDA5MTc2MjcxNDAwOTAwMDYwMA",
+2025-11-30T00:57:50.9056228Z       "contentDetails": {
+2025-11-30T00:57:50.9056444Z         "upload": {
+2025-11-30T00:57:50.9056667Z           "videoId": "JKieOq1oVBc"
+2025-11-30T00:57:50.9056892Z         }
+2025-11-30T00:57:50.9057057Z       }
+2025-11-30T00:57:50.9057220Z     },
+2025-11-30T00:57:50.9057383Z     {
+2025-11-30T00:57:50.9057588Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9057876Z       "etag": "pT_eR7cyL9b7DVI3rwelU3PXIXU",
+2025-11-30T00:57:50.9058212Z       "id": "MTUxNzYyNzA0ODIzMTc2MjcwNDgyMzAwMDMxOA",
+2025-11-30T00:57:50.9058503Z       "contentDetails": {
+2025-11-30T00:57:50.9058708Z         "upload": {
+2025-11-30T00:57:50.9058930Z           "videoId": "EIp9SomIK3o"
+2025-11-30T00:57:50.9059326Z         }
+2025-11-30T00:57:50.9059490Z       }
+2025-11-30T00:57:50.9059652Z     },
+2025-11-30T00:57:50.9059816Z     {
+2025-11-30T00:57:50.9060019Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9060366Z       "etag": "G2OodqEFdRGAOlQAkeQnA-G3TDU",
+2025-11-30T00:57:50.9060916Z       "id": "MTUxNzYyMzk3ODE0MTc2MjM5NzgxNDAwMDIzMA",
+2025-11-30T00:57:50.9061318Z       "contentDetails": {
+2025-11-30T00:57:50.9061535Z         "upload": {
+2025-11-30T00:57:50.9061759Z           "videoId": "g9ysYRlk-ww"
+2025-11-30T00:57:50.9061988Z         }
+2025-11-30T00:57:50.9062156Z       }
+2025-11-30T00:57:50.9062321Z     },
+2025-11-30T00:57:50.9062487Z     {
+2025-11-30T00:57:50.9062689Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9062966Z       "etag": "GvzV2ZIcuIL2NC0nVpm3XRde2Rg",
+2025-11-30T00:57:50.9063300Z       "id": "MTUxNzYyMTA5MjAzMTc2MjEwOTIwMzAwMDY5Ng",
+2025-11-30T00:57:50.9063586Z       "contentDetails": {
+2025-11-30T00:57:50.9063797Z         "upload": {
+2025-11-30T00:57:50.9064022Z           "videoId": "wIsc13N3OxM"
+2025-11-30T00:57:50.9064248Z         }
+2025-11-30T00:57:50.9064409Z       }
+2025-11-30T00:57:50.9064565Z     },
+2025-11-30T00:57:50.9064717Z     {
+2025-11-30T00:57:50.9064917Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9065198Z       "etag": "wXaHCfVCFiY2xpLReEHomg7Gp9s",
+2025-11-30T00:57:50.9065524Z       "id": "MTUxNzYyMDk5ODEwMTc2MjA5OTgxMDAwMDg3NQ",
+2025-11-30T00:57:50.9065807Z       "contentDetails": {
+2025-11-30T00:57:50.9066015Z         "upload": {
+2025-11-30T00:57:50.9066233Z           "videoId": "u-sPuOZBx7U"
+2025-11-30T00:57:50.9066453Z         }
+2025-11-30T00:57:50.9066616Z       }
+2025-11-30T00:57:50.9066902Z     },
+2025-11-30T00:57:50.9067070Z     {
+2025-11-30T00:57:50.9067265Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9067538Z       "etag": "iGsxsfp9cH5wMEB0ZmZx0ZEJNYU",
+2025-11-30T00:57:50.9067857Z       "id": "MTUxNzYxNzk2ODgxMTc2MTc5Njg4MTAwMDYxMQ",
+2025-11-30T00:57:50.9068131Z       "contentDetails": {
+2025-11-30T00:57:50.9068339Z         "upload": {
+2025-11-30T00:57:50.9068555Z           "videoId": "Y42x7pa3knQ"
+2025-11-30T00:57:50.9068776Z         }
+2025-11-30T00:57:50.9068935Z       }
+2025-11-30T00:57:50.9069093Z     },
+2025-11-30T00:57:50.9069249Z     {
+2025-11-30T00:57:50.9069448Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9069721Z       "etag": "sYCecgrTk246BwqE1TF2O5hpGvI",
+2025-11-30T00:57:50.9070043Z       "id": "MTUxNzYxNTA0NjU0MTc2MTUwNDY1NDAwMDgxMg",
+2025-11-30T00:57:50.9070323Z       "contentDetails": {
+2025-11-30T00:57:50.9070530Z         "upload": {
+2025-11-30T00:57:50.9070946Z           "videoId": "BKbXUU3nMD8"
+2025-11-30T00:57:50.9071167Z         }
+2025-11-30T00:57:50.9071336Z       }
+2025-11-30T00:57:50.9071495Z     },
+2025-11-30T00:57:50.9071657Z     {
+2025-11-30T00:57:50.9071855Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9072139Z       "etag": "g7tcyq-3JfR4ofQsCNdoZudvOV8",
+2025-11-30T00:57:50.9072464Z       "id": "MTUxNzYxNDk0NTExMTc2MTQ5NDUxMTAwMDA0OQ",
+2025-11-30T00:57:50.9072739Z       "contentDetails": {
+2025-11-30T00:57:50.9072960Z         "upload": {
+2025-11-30T00:57:50.9073179Z           "videoId": "qqLgyxylR6k"
+2025-11-30T00:57:50.9073402Z         }
+2025-11-30T00:57:50.9073565Z       }
+2025-11-30T00:57:50.9073729Z     },
+2025-11-30T00:57:50.9073889Z     {
+2025-11-30T00:57:50.9074092Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9074375Z       "etag": "Eg7xn1U4X53DvmdOHaWLxEgWK44",
+2025-11-30T00:57:50.9074716Z       "id": "MTUxNzYxMTQ2MDQ0MTc2MTE0NjA0NDAwMDA4Mg",
+2025-11-30T00:57:50.9075002Z       "contentDetails": {
+2025-11-30T00:57:50.9075212Z         "upload": {
+2025-11-30T00:57:50.9075431Z           "videoId": "E717zB3ZneA"
+2025-11-30T00:57:50.9075657Z         }
+2025-11-30T00:57:50.9075824Z       }
+2025-11-30T00:57:50.9075985Z     },
+2025-11-30T00:57:50.9076139Z     {
+2025-11-30T00:57:50.9076336Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9076618Z       "etag": "FgidBqPIEmcbnLF-jH2Lt2NEUFA",
+2025-11-30T00:57:50.9076947Z       "id": "MTUxNzYwOTAwODg3MTc2MDkwMDg4NzAwMDgxNg",
+2025-11-30T00:57:50.9077365Z       "contentDetails": {
+2025-11-30T00:57:50.9077572Z         "upload": {
+2025-11-30T00:57:50.9077790Z           "videoId": "Y8Bg7s-KJEY"
+2025-11-30T00:57:50.9078009Z         }
+2025-11-30T00:57:50.9078170Z       }
+2025-11-30T00:57:50.9078321Z     },
+2025-11-30T00:57:50.9078477Z     {
+2025-11-30T00:57:50.9078677Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9078953Z       "etag": "jiKUmN4TQfYIBkXCnHdgN4CcwWI",
+2025-11-30T00:57:50.9079278Z       "id": "MTUxNzYwODkwMzM0MTc2MDg5MDMzNDAwMDUzNA",
+2025-11-30T00:57:50.9079560Z       "contentDetails": {
+2025-11-30T00:57:50.9079767Z         "upload": {
+2025-11-30T00:57:50.9079991Z           "videoId": "Gzpbqq7GUOo"
+2025-11-30T00:57:50.9080215Z         }
+2025-11-30T00:57:50.9080374Z       }
+2025-11-30T00:57:50.9080534Z     },
+2025-11-30T00:57:50.9080867Z     {
+2025-11-30T00:57:50.9081077Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9081353Z       "etag": "zGmJZb4JpwA5v62wDw4jqv3f75w",
+2025-11-30T00:57:50.9081682Z       "id": "MTUxNzYwNTg1NDAzMTc2MDU4NTQwMzAwMDYxMQ",
+2025-11-30T00:57:50.9081972Z       "contentDetails": {
+2025-11-30T00:57:50.9082180Z         "upload": {
+2025-11-30T00:57:50.9082391Z           "videoId": "Yt1bs4cxEk8"
+2025-11-30T00:57:50.9082614Z         }
+2025-11-30T00:57:50.9082779Z       }
+2025-11-30T00:57:50.9082939Z     },
+2025-11-30T00:57:50.9083097Z     {
+2025-11-30T00:57:50.9083296Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9083568Z       "etag": "0BLAoY_Bt1oJV0YE2EnekE39of0",
+2025-11-30T00:57:50.9083884Z       "id": "MTUxNzYwMjk1NjE5MTc2MDI5NTYxOTAwMDU2MA",
+2025-11-30T00:57:50.9084157Z       "contentDetails": {
+2025-11-30T00:57:50.9084485Z         "upload": {
+2025-11-30T00:57:50.9084717Z           "videoId": "miGljeLNsY4"
+2025-11-30T00:57:50.9084937Z         }
+2025-11-30T00:57:50.9085098Z       }
+2025-11-30T00:57:50.9085255Z     },
+2025-11-30T00:57:50.9085423Z     {
+2025-11-30T00:57:50.9085618Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9085891Z       "etag": "0M1JM1Ywv9KtjAHx-sTsEICx_0Q",
+2025-11-30T00:57:50.9086214Z       "id": "MTUxNzYwMjg2MDE3MTc2MDI4NjAxNzAwMDM2NA",
+2025-11-30T00:57:50.9086491Z       "contentDetails": {
+2025-11-30T00:57:50.9086699Z         "upload": {
+2025-11-30T00:57:50.9086914Z           "videoId": "mPDfbqJv3zY"
+2025-11-30T00:57:50.9087154Z         }
+2025-11-30T00:57:50.9087332Z       }
+2025-11-30T00:57:50.9087492Z     },
+2025-11-30T00:57:50.9087655Z     {
+2025-11-30T00:57:50.9087856Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9088135Z       "etag": "vvmWutrisZgSSxTzCq-Tp48oxi8",
+2025-11-30T00:57:50.9088460Z       "id": "MTUxNzU5OTgxOTE2MTc1OTk4MTkxNjAwMDI5NQ",
+2025-11-30T00:57:50.9088741Z       "contentDetails": {
+2025-11-30T00:57:50.9088943Z         "upload": {
+2025-11-30T00:57:50.9089159Z           "videoId": "XaHjUz1TXQ8"
+2025-11-30T00:57:50.9089379Z         }
+2025-11-30T00:57:50.9089540Z       }
+2025-11-30T00:57:50.9089697Z     },
+2025-11-30T00:57:50.9089856Z     {
+2025-11-30T00:57:50.9090053Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9090332Z       "etag": "Ax7RusA_jecx-0Zqx7YOJbc9Qkg",
+2025-11-30T00:57:50.9090793Z       "id": "MTUxNzU5NjkwMDYxMTc1OTY5MDA2MTAwMDU3Nw",
+2025-11-30T00:57:50.9091096Z       "contentDetails": {
+2025-11-30T00:57:50.9091308Z         "upload": {
+2025-11-30T00:57:50.9091526Z           "videoId": "9rwrfhhY5sk"
+2025-11-30T00:57:50.9091747Z         }
+2025-11-30T00:57:50.9091911Z       }
+2025-11-30T00:57:50.9092083Z     },
+2025-11-30T00:57:50.9092243Z     {
+2025-11-30T00:57:50.9092437Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9092707Z       "etag": "BcP7YmqirukHqVf0OxxvJEBIIDY",
+2025-11-30T00:57:50.9093036Z       "id": "MTUxNzU5NjgwMzUwMTc1OTY4MDM1MDAwMDA0NA",
+2025-11-30T00:57:50.9093320Z       "contentDetails": {
+2025-11-30T00:57:50.9093532Z         "upload": {
+2025-11-30T00:57:50.9093748Z           "videoId": "W2nodyNJEys"
+2025-11-30T00:57:50.9093965Z         }
+2025-11-30T00:57:50.9094129Z       }
+2025-11-30T00:57:50.9094289Z     },
+2025-11-30T00:57:50.9094441Z     {
+2025-11-30T00:57:50.9094635Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9095039Z       "etag": "dgUKS-m7hLbgndlwGYbc4cDLdRM",
+2025-11-30T00:57:50.9095364Z       "id": "MTUxNzU5Mzc1NDIxMTc1OTM3NTQyMTAwMDY0Ng",
+2025-11-30T00:57:50.9095646Z       "contentDetails": {
+2025-11-30T00:57:50.9095852Z         "upload": {
+2025-11-30T00:57:50.9096064Z           "videoId": "0sbvXRaxhtc"
+2025-11-30T00:57:50.9096297Z         }
+2025-11-30T00:57:50.9096456Z       }
+2025-11-30T00:57:50.9096609Z     },
+2025-11-30T00:57:50.9096768Z     {
+2025-11-30T00:57:50.9096964Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9097239Z       "etag": "YvstR7VK4QWKuAdDM-xnsMG5Rp4",
+2025-11-30T00:57:50.9097564Z       "id": "MTUxNzU5MDg1NzgwMTc1OTA4NTc4MDAwMDc1NQ",
+2025-11-30T00:57:50.9097841Z       "contentDetails": {
+2025-11-30T00:57:50.9098049Z         "upload": {
+2025-11-30T00:57:50.9098267Z           "videoId": "lUtXv-cBtIo"
+2025-11-30T00:57:50.9098484Z         }
+2025-11-30T00:57:50.9098645Z       }
+2025-11-30T00:57:50.9098804Z     },
+2025-11-30T00:57:50.9098966Z     {
+2025-11-30T00:57:50.9099164Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9099435Z       "etag": "72obF45wTy0nWCWdw1pX95ZkDt4",
+2025-11-30T00:57:50.9099758Z       "id": "MTUxNzU5MDc2MDI4MTc1OTA3NjAyODAwMDk5MA",
+2025-11-30T00:57:50.9100045Z       "contentDetails": {
+2025-11-30T00:57:50.9100250Z         "upload": {
+2025-11-30T00:57:50.9100470Z           "videoId": "uRyozTevhcg"
+2025-11-30T00:57:50.9100907Z         }
+2025-11-30T00:57:50.9101087Z       }
+2025-11-30T00:57:50.9101249Z     },
+2025-11-30T00:57:50.9101408Z     {
+2025-11-30T00:57:50.9101607Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9102007Z       "etag": "68JAnyR_Ii_r-AlJ_YJw5eIo5Pc",
+2025-11-30T00:57:50.9102349Z       "id": "MTUxNzU4NzY5NTU4MTc1ODc2OTU1ODAwMDUwNA",
+2025-11-30T00:57:50.9102633Z       "contentDetails": {
+2025-11-30T00:57:50.9102847Z         "upload": {
+2025-11-30T00:57:50.9103067Z           "videoId": "eDjDbJxvKaE"
+2025-11-30T00:57:50.9103295Z         }
+2025-11-30T00:57:50.9103458Z       }
+2025-11-30T00:57:50.9103623Z     },
+2025-11-30T00:57:50.9103784Z     {
+2025-11-30T00:57:50.9103983Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9104258Z       "etag": "qDAT0LOynCjdvq1FVd1oL2T2oLY",
+2025-11-30T00:57:50.9104589Z       "id": "MTUxNzU4NDgwMzA5MTc1ODQ4MDMwOTAwMDI5NQ",
+2025-11-30T00:57:50.9104873Z       "contentDetails": {
+2025-11-30T00:57:50.9105079Z         "upload": {
+2025-11-30T00:57:50.9105327Z           "videoId": "nL--x4kscGM"
+2025-11-30T00:57:50.9105552Z         }
+2025-11-30T00:57:50.9105713Z       }
+2025-11-30T00:57:50.9105870Z     },
+2025-11-30T00:57:50.9106023Z     {
+2025-11-30T00:57:50.9106225Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9106507Z       "etag": "i3VASXbEEbCq8MMm8svIibAeVXc",
+2025-11-30T00:57:50.9106833Z       "id": "MTUxNzU4NDcwOTg2MTc1ODQ3MDk4NjAwMDg4Nw",
+2025-11-30T00:57:50.9107115Z       "contentDetails": {
+2025-11-30T00:57:50.9107327Z         "upload": {
+2025-11-30T00:57:50.9107548Z           "videoId": "FRt0BX1kIIo"
+2025-11-30T00:57:50.9107765Z         }
+2025-11-30T00:57:50.9107935Z       }
+2025-11-30T00:57:50.9108089Z     },
+2025-11-30T00:57:50.9108251Z     {
+2025-11-30T00:57:50.9108447Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9108725Z       "etag": "Xrwh-oPi9SxgioZ6yrxa7DbLq1Y",
+2025-11-30T00:57:50.9109051Z       "id": "MTUxNzU4MTY1OTEyMTc1ODE2NTkxMjAwMDAyOA",
+2025-11-30T00:57:50.9109334Z       "contentDetails": {
+2025-11-30T00:57:50.9109542Z         "upload": {
+2025-11-30T00:57:50.9109761Z           "videoId": "2KthyYJqgLo"
+2025-11-30T00:57:50.9109978Z         }
+2025-11-30T00:57:50.9110144Z       }
+2025-11-30T00:57:50.9110304Z     },
+2025-11-30T00:57:50.9110488Z     {
+2025-11-30T00:57:50.9111004Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9111319Z       "etag": "uGXVj2ifnJAwTv8PS44LKn1cHjA",
+2025-11-30T00:57:50.9111652Z       "id": "MTUxNzU3ODgwNTYwMTc1Nzg4MDU2MDAwMDg1OA",
+2025-11-30T00:57:50.9111937Z       "contentDetails": {
+2025-11-30T00:57:50.9112140Z         "upload": {
+2025-11-30T00:57:50.9112417Z           "videoId": "odgVRFkFANQ"
+2025-11-30T00:57:50.9112795Z         }
+2025-11-30T00:57:50.9112966Z       }
+2025-11-30T00:57:50.9113131Z     },
+2025-11-30T00:57:50.9113294Z     {
+2025-11-30T00:57:50.9113496Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9113784Z       "etag": "Mrqa-I_N4o2rSEtT-cDz-xdp7F8",
+2025-11-30T00:57:50.9114116Z       "id": "MTUxNzU3ODc1NDIwMTc1Nzg3NTQyMDAwMDc1NA",
+2025-11-30T00:57:50.9114452Z       "contentDetails": {
+2025-11-30T00:57:50.9114665Z         "upload": {
+2025-11-30T00:57:50.9114892Z           "videoId": "-BeupyDyn_Y"
+2025-11-30T00:57:50.9115118Z         }
+2025-11-30T00:57:50.9115286Z       }
+2025-11-30T00:57:50.9115450Z     },
+2025-11-30T00:57:50.9115619Z     {
+2025-11-30T00:57:50.9115820Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9116099Z       "etag": "JsceDd84EL6I8yPuAaOcIXDxXM4",
+2025-11-30T00:57:50.9116431Z       "id": "MTUxNzU3NzcwMjM2MTc1Nzc3MDIzNjAwMDI5Ng",
+2025-11-30T00:57:50.9116721Z       "contentDetails": {
+2025-11-30T00:57:50.9116935Z         "upload": {
+2025-11-30T00:57:50.9117170Z           "videoId": "nMtHFALy4pU"
+2025-11-30T00:57:50.9117397Z         }
+2025-11-30T00:57:50.9117561Z       }
+2025-11-30T00:57:50.9117721Z     },
+2025-11-30T00:57:50.9117877Z     {
+2025-11-30T00:57:50.9118077Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9118362Z       "etag": "42CwDbTptMYrw68w04CjKOOjmNw",
+2025-11-30T00:57:50.9118696Z       "id": "MTUxNzU3NzE1OTQ4MTc1NzcxNTk0ODAwMDg1NQ",
+2025-11-30T00:57:50.9118989Z       "contentDetails": {
+2025-11-30T00:57:50.9119208Z         "upload": {
+2025-11-30T00:57:50.9119434Z           "videoId": "dvqy3HpTW1A"
+2025-11-30T00:57:50.9119666Z         }
+2025-11-30T00:57:50.9119835Z       }
+2025-11-30T00:57:50.9120110Z     },
+2025-11-30T00:57:50.9120281Z     {
+2025-11-30T00:57:50.9120489Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9120959Z       "etag": "l2fZpGe6_gkSE1XqxrNUjE-34XE",
+2025-11-30T00:57:50.9121301Z       "id": "MTUxNzU3Mjc3NzM1MTc1NzI3NzczNTAwMDYzNw",
+2025-11-30T00:57:50.9121595Z       "contentDetails": {
+2025-11-30T00:57:50.9121818Z         "upload": {
+2025-11-30T00:57:50.9122048Z           "videoId": "nbn6cjvqSDs"
+2025-11-30T00:57:50.9122274Z         }
+2025-11-30T00:57:50.9122441Z       }
+2025-11-30T00:57:50.9122607Z     },
+2025-11-30T00:57:50.9122767Z     {
+2025-11-30T00:57:50.9122971Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9123260Z       "etag": "RCKeiYijD6BzXpm27LmKKpLqqR0",
+2025-11-30T00:57:50.9123596Z       "id": "MTUxNzU3MjY5NTY3MTc1NzI2OTU2NzAwMDQzMw",
+2025-11-30T00:57:50.9123881Z       "contentDetails": {
+2025-11-30T00:57:50.9124093Z         "upload": {
+2025-11-30T00:57:50.9124318Z           "videoId": "KX6v8pl0_6Q"
+2025-11-30T00:57:50.9124550Z         }
+2025-11-30T00:57:50.9124719Z       }
+2025-11-30T00:57:50.9124885Z     },
+2025-11-30T00:57:50.9125049Z     {
+2025-11-30T00:57:50.9125253Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9125533Z       "etag": "883Z5iHxW59M4VZPqLxERaPdtVY",
+2025-11-30T00:57:50.9125863Z       "id": "MTUxNzU2OTU1Nzc5MTc1Njk1NTc3OTAwMDIyMA",
+2025-11-30T00:57:50.9126138Z       "contentDetails": {
+2025-11-30T00:57:50.9126350Z         "upload": {
+2025-11-30T00:57:50.9126569Z           "videoId": "2IO2CDGj3Wk"
+2025-11-30T00:57:50.9126787Z         }
+2025-11-30T00:57:50.9126952Z       }
+2025-11-30T00:57:50.9127114Z     },
+2025-11-30T00:57:50.9127271Z     {
+2025-11-30T00:57:50.9127463Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9127730Z       "etag": "57ITcoJWFSMtCi2CEk4kOOeUwx8",
+2025-11-30T00:57:50.9128052Z       "id": "MTUxNzU2NjY3ODA0MTc1NjY2NzgwNDAwMDU1OQ",
+2025-11-30T00:57:50.9128336Z       "contentDetails": {
+2025-11-30T00:57:50.9128542Z         "upload": {
+2025-11-30T00:57:50.9128767Z           "videoId": "gdmGtOl-Dgg"
+2025-11-30T00:57:50.9128989Z         }
+2025-11-30T00:57:50.9129154Z       }
+2025-11-30T00:57:50.9129313Z     },
+2025-11-30T00:57:50.9129472Z     {
+2025-11-30T00:57:50.9129674Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9129951Z       "etag": "Kb5CwJ3LiX33rlIyavhaiDb1fGI",
+2025-11-30T00:57:50.9130273Z       "id": "MTUxNzU2NjU2NDczMTc1NjY1NjQ3MzAwMDQyMQ",
+2025-11-30T00:57:50.9130845Z       "contentDetails": {
+2025-11-30T00:57:50.9131069Z         "upload": {
+2025-11-30T00:57:50.9131289Z           "videoId": "598tJsMuXLU"
+2025-11-30T00:57:50.9131510Z         }
+2025-11-30T00:57:50.9131675Z       }
+2025-11-30T00:57:50.9131830Z     },
+2025-11-30T00:57:50.9131989Z     {
+2025-11-30T00:57:50.9132192Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9132472Z       "etag": "Ude8szo8MmUSZWqGmOhZfpBH_N4",
+2025-11-30T00:57:50.9132800Z       "id": "MTUxNzU2MzUxMTUzMTc1NjM1MTE1MzAwMDUxMQ",
+2025-11-30T00:57:50.9133094Z       "contentDetails": {
+2025-11-30T00:57:50.9133307Z         "upload": {
+2025-11-30T00:57:50.9133540Z           "videoId": "Klc1N5MxQNM"
+2025-11-30T00:57:50.9133760Z         }
+2025-11-30T00:57:50.9133926Z       }
+2025-11-30T00:57:50.9134089Z     },
+2025-11-30T00:57:50.9134250Z     {
+2025-11-30T00:57:50.9134449Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9134731Z       "etag": "0AwFDvu8Z2NpwzIXnfhqjGtfabk",
+2025-11-30T00:57:50.9135069Z       "id": "MTUxNzU2MDYwODAxMTc1NjA2MDgwMTAwMDg2Nw",
+2025-11-30T00:57:50.9135356Z       "contentDetails": {
+2025-11-30T00:57:50.9135571Z         "upload": {
+2025-11-30T00:57:50.9135791Z           "videoId": "FZuqC90Pm3U"
+2025-11-30T00:57:50.9136018Z         }
+2025-11-30T00:57:50.9136179Z       }
+2025-11-30T00:57:50.9136339Z     },
+2025-11-30T00:57:50.9136497Z     {
+2025-11-30T00:57:50.9136696Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9136971Z       "etag": "elyB4FqxMUlHsih_hQcItoZxsck",
+2025-11-30T00:57:50.9137292Z       "id": "MTUxNzU2MDUyNjkzMTc1NjA1MjY5MzAwMDY2Ng",
+2025-11-30T00:57:50.9137566Z       "contentDetails": {
+2025-11-30T00:57:50.9137936Z         "upload": {
+2025-11-30T00:57:50.9138168Z           "videoId": "jpHe0ZbZmhs"
+2025-11-30T00:57:50.9138390Z         }
+2025-11-30T00:57:50.9138557Z       }
+2025-11-30T00:57:50.9138714Z     },
+2025-11-30T00:57:50.9138871Z     {
+2025-11-30T00:57:50.9139073Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9139348Z       "etag": "Jc1kJVirKteGxT034ZWJzP-IirE",
+2025-11-30T00:57:50.9139681Z       "id": "MTUxNzU1NzQ2MjIxMTc1NTc0NjIyMTAwMDMzMw",
+2025-11-30T00:57:50.9139961Z       "contentDetails": {
+2025-11-30T00:57:50.9140173Z         "upload": {
+2025-11-30T00:57:50.9140396Z           "videoId": "UWxq_Wto_6o"
+2025-11-30T00:57:50.9140615Z         }
+2025-11-30T00:57:50.9141014Z       }
+2025-11-30T00:57:50.9141184Z     },
+2025-11-30T00:57:50.9141341Z     {
+2025-11-30T00:57:50.9141542Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9141833Z       "etag": "3lGMh_XSvHDtEY75CWpRrmshfMI",
+2025-11-30T00:57:50.9142160Z       "id": "MTUxNzU1NDU5NTAzMTc1NTQ1OTUwMzAwMDE5NQ",
+2025-11-30T00:57:50.9142447Z       "contentDetails": {
+2025-11-30T00:57:50.9142657Z         "upload": {
+2025-11-30T00:57:50.9142880Z           "videoId": "lypxhx1Y2G4"
+2025-11-30T00:57:50.9143101Z         }
+2025-11-30T00:57:50.9143264Z       }
+2025-11-30T00:57:50.9143420Z     },
+2025-11-30T00:57:50.9143582Z     {
+2025-11-30T00:57:50.9143785Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9144071Z       "etag": "R5rBwmYD2v32HMVoZ-6236qIyzc",
+2025-11-30T00:57:50.9144398Z       "id": "MTUxNzU1NDQ3Mjc4MTc1NTQ0NzI3ODAwMDUzNw",
+2025-11-30T00:57:50.9144682Z       "contentDetails": {
+2025-11-30T00:57:50.9144889Z         "upload": {
+2025-11-30T00:57:50.9145131Z           "videoId": "4Vf_MeB0lAE"
+2025-11-30T00:57:50.9145346Z         }
+2025-11-30T00:57:50.9145514Z       }
+2025-11-30T00:57:50.9145678Z     },
+2025-11-30T00:57:50.9145839Z     {
+2025-11-30T00:57:50.9146039Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9146314Z       "etag": "NNmb-rNv9TK2f-s3sWI8co8LJKs",
+2025-11-30T00:57:50.9146642Z       "id": "MTUxNzU1MTQxODg1MTc1NTE0MTg4NTAwMDM2Mg",
+2025-11-30T00:57:50.9146926Z       "contentDetails": {
+2025-11-30T00:57:50.9147132Z         "upload": {
+2025-11-30T00:57:50.9147346Z           "videoId": "KhyQMc6_TWQ"
+2025-11-30T00:57:50.9147562Z         }
+2025-11-30T00:57:50.9147724Z       }
+2025-11-30T00:57:50.9147880Z     },
+2025-11-30T00:57:50.9148039Z     {
+2025-11-30T00:57:50.9148406Z       "kind": "youtube#activity",
+2025-11-30T00:57:50.9148703Z       "etag": "NJ7DuMmmR_mP0bI5xlEA2uqk3iE",
+2025-11-30T00:57:50.9149044Z       "id": "MTUxNzU0ODU0NjUzMTc1NDg1NDY1MzAwMDUxMA",
+2025-11-30T00:57:50.9149331Z       "contentDetails": {
+2025-11-30T00:57:50.9149551Z         "upload": {
+2025-11-30T00:57:50.9149783Z           "videoId": "Ci4w3KwkkWs"
+2025-11-30T00:57:50.9150010Z         }
+2025-11-30T00:57:50.9150181Z       }
+2025-11-30T00:57:50.9150345Z     }
+2025-11-30T00:57:50.9150514Z   ],
+2025-11-30T00:57:50.9150883Z   "nextPageToken": "CDIQAA",
+2025-11-30T00:57:50.9151122Z   "pageInfo": {
+2025-11-30T00:57:50.9151334Z     "totalResults": 110,
+2025-11-30T00:57:50.9151557Z     "resultsPerPage": 50
+2025-11-30T00:57:50.9151764Z   }
+2025-11-30T00:57:50.9151929Z }
+2025-11-30T00:57:50.9152227Z --- Extracted 50 video IDs from the activity feed ---
+2025-11-30T00:57:51.0501459Z Successfully wrote 2 videos to upcoming_cache.json
+2025-11-30T00:57:51.0504873Z Successfully wrote 0 videos to live_cache.json
+2025-11-30T00:57:51.0508809Z Successfully wrote 3 videos to past_week_cache.json
+2025-11-30T00:57:51.0509480Z YouTube cache update finished successfully.
+2025-11-30T00:57:51.0649440Z ##[group]Run stefanzweifel/git-auto-commit-action@v5
+2025-11-30T00:57:51.0649758Z with:
+2025-11-30T00:57:51.0649969Z   commit_message: chore: Update YouTube cache files
+2025-11-30T00:57:51.0650239Z   file_pattern: *.json
+2025-11-30T00:57:51.0668009Z   repository: .
+2025-11-30T00:57:51.0668254Z   commit_user_name: github-actions[bot]
+2025-11-30T00:57:51.0668633Z   commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+2025-11-30T00:57:51.0669145Z   commit_author: ehowsecunderabad <213071799+ehowsecunderabad@users.noreply.github.com>
+2025-11-30T00:57:51.0669545Z   skip_dirty_check: false
+2025-11-30T00:57:51.0669758Z   skip_fetch: false
+2025-11-30T00:57:51.0669958Z   skip_checkout: false
+2025-11-30T00:57:51.0670159Z   disable_globbing: false
+2025-11-30T00:57:51.0670358Z   create_branch: false
+2025-11-30T00:57:51.0670567Z   create_git_tag_only: false
+2025-11-30T00:57:51.0670983Z   internal_git_binary: git
+2025-11-30T00:57:51.0671193Z ##[endgroup]
+2025-11-30T00:57:51.0911604Z Started: bash /home/runner/work/_actions/stefanzweifel/git-auto-commit-action/v5/entrypoint.sh
+2025-11-30T00:57:51.0949614Z INPUT_REPOSITORY value: .
+2025-11-30T00:57:51.0950062Z INPUT_STATUS_OPTIONS: 
+2025-11-30T00:57:51.0950856Z INPUT_FILE_PATTERN: *.json
+2025-11-30T00:57:51.1124847Z INPUT_BRANCH value: 
+2025-11-30T00:57:51.2803476Z M	live_cache.json
+2025-11-30T00:57:51.2803924Z M	past_week_cache.json
+2025-11-30T00:57:51.2804318Z M	upcoming_cache.json
+2025-11-30T00:57:51.2804674Z Your branch is up to date with 'origin/main'.
+2025-11-30T00:57:51.2806483Z INPUT_ADD_OPTIONS: 
+2025-11-30T00:57:51.2807217Z INPUT_FILE_PATTERN: *.json
+2025-11-30T00:57:51.2867810Z INPUT_COMMIT_OPTIONS: 
+2025-11-30T00:57:51.2868706Z INPUT_COMMIT_USER_NAME: github-actions[bot]
+2025-11-30T00:57:51.2869604Z INPUT_COMMIT_USER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+2025-11-30T00:57:51.2870340Z INPUT_COMMIT_MESSAGE: chore: Update YouTube cache files
+2025-11-30T00:57:51.2871283Z INPUT_COMMIT_AUTHOR: ehowsecunderabad <213071799+ehowsecunderabad@users.noreply.github.com>
+2025-11-30T00:57:51.2928140Z [main 0a78c4d] chore: Update YouTube cache files
+2025-11-30T00:57:51.2928727Z  Author: ehowsecunderabad <213071799+ehowsecunderabad@users.noreply.github.com>
+2025-11-30T00:57:51.2929274Z  3 files changed, 3 insertions(+), 3 deletions(-)
+2025-11-30T00:57:51.2947570Z INPUT_TAGGING_MESSAGE: 
+2025-11-30T00:57:51.2948204Z No tagging message supplied. No tag will be added.
+2025-11-30T00:57:51.2948735Z INPUT_PUSH_OPTIONS: 
+2025-11-30T00:57:51.7303322Z To https://github.com/ehowsecunderabad/site
+2025-11-30T00:57:51.7304078Z    09ba8bb..0a78c4d  main -> main
+2025-11-30T00:57:51.7429835Z Post job cleanup.
+2025-11-30T00:57:51.8938078Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-f475c6c2b2eab4c39827f3d958fd2b6b359713f07c88e8ab51270bcdf44fabc7, not saving cache.
+2025-11-30T00:57:51.9030825Z Post job cleanup.
+2025-11-30T00:57:51.9966527Z [command]/usr/bin/git version
+2025-11-30T00:57:52.0002788Z git version 2.51.2
+2025-11-30T00:57:52.0046768Z Temporarily overriding HOME='/home/runner/work/_temp/1f2f4fb8-519f-4d5c-b927-093e704c99ca' before making global git config changes
+2025-11-30T00:57:52.0048187Z Adding repository directory to the temporary git global config as a safe directory
+2025-11-30T00:57:52.0053441Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/site/site
+2025-11-30T00:57:52.0088219Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-11-30T00:57:52.0120634Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-11-30T00:57:52.0344641Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-11-30T00:57:52.0364667Z http.https://github.com/.extraheader
+2025-11-30T00:57:52.0376767Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2025-11-30T00:57:52.0408870Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-11-30T00:57:52.0649223Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2025-11-30T00:57:52.0682898Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2025-11-30T00:57:52.1028049Z Cleaning up orphan processes
