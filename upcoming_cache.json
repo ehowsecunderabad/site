@@ -76,7 +76,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "jurXcxSeKXkdZG3sCeY42M4EOOs",
+      "etag": "VZAg85yjURfQaXQhxK_KcpRV4Kg",
       "id": "TaV63eyllkI",
       "snippet": {
         "publishedAt": "2025-12-06T15:43:57Z",
@@ -130,7 +130,6 @@
         ],
         "categoryId": "29",
         "liveBroadcastContent": "upcoming",
-        "defaultLanguage": "en",
         "localized": {
           "title": "Sunday Worship | First Service | 7 Dec 2025",
           "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad"
@@ -143,5 +142,5 @@
       }
     }
   ],
-  "generatedAt": "2025-12-06T16:35:35.339Z"
+  "generatedAt": "2025-12-06T16:50:52.343Z"
 }
