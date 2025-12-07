@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "cd7--eQoUoG9SOUTgbTfeTgqIls",
+      "etag": "XLEGylppKhvBWNzf77pXUNwI5ew",
       "id": "ilLttREtalk",
       "snippet": {
         "publishedAt": "2025-12-06T15:44:49Z",
@@ -73,9 +73,9 @@
       "liveStreamingDetails": {
         "actualStartTime": "2025-12-07T04:02:23Z",
         "scheduledStartTime": "2025-12-07T04:00:00Z",
-        "concurrentViewers": "20"
+        "concurrentViewers": "18"
       }
     }
   ],
-  "generatedAt": "2025-12-07T04:25:16.730Z"
+  "generatedAt": "2025-12-07T04:48:04.509Z"
 }
