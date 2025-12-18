@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "OVEcCDxP5TPVMHR0fFoJbHWb7Qc",
+      "etag": "AIfSHx8E9i_iBAqtQbg_J7SHxy8",
       "id": "g0-6qV0FTpU",
       "snippet": {
-        "publishedAt": "2025-12-17T13:11:14Z",
+        "publishedAt": "2025-12-18T04:31:08Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Semi-Christmas Celebrations - 2025",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/g0-6qV0FTpU/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -223,5 +223,5 @@
       }
     }
   ],
-  "generatedAt": "2025-12-18T04:25:24.053Z"
+  "generatedAt": "2025-12-18T04:51:30.819Z"
 }
