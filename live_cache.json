@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "SpNSKoYu6soXAt19kmZhdEvz-7I",
+      "etag": "SZX7qxAk97JLfiat-PTJ3v_uohk",
       "id": "j6hER1RdQgs",
       "snippet": {
         "publishedAt": "2025-12-17T16:22:50Z",
@@ -62,7 +62,7 @@
           "revival"
         ],
         "categoryId": "29",
-        "liveBroadcastContent": "upcoming",
+        "liveBroadcastContent": "live",
         "defaultLanguage": "en",
         "localized": {
           "title": "Sunday Worship | Second Service | 21 Dec 2025",
@@ -71,10 +71,11 @@
         "defaultAudioLanguage": "en-IN"
       },
       "liveStreamingDetails": {
-        "actualStartTime": "2025-12-21T03:57:24Z",
-        "scheduledStartTime": "2025-12-21T04:00:00Z"
+        "actualStartTime": "2025-12-21T03:57:28Z",
+        "scheduledStartTime": "2025-12-21T04:00:00Z",
+        "concurrentViewers": "14"
       }
     }
   ],
-  "generatedAt": "2025-12-21T03:57:35.287Z"
+  "generatedAt": "2025-12-21T04:33:56.064Z"
 }
