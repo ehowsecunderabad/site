@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "5gwD9jUBHmZpXusJp1f2gksQxmQ",
+      "etag": "ae4uHuCUXEgZnKWaelZ8iHCrC_Y",
       "id": "igXx533eyrw",
       "snippet": {
-        "publishedAt": "2025-12-25T03:05:02Z",
+        "publishedAt": "2025-12-25T19:35:28Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Christmas | Combined Service | 25 December 2025",
         "description": "Let's gather to worship the Lord corporately remembering His birth on this Christmas Day.\n\n\n\n\n#SundayWorship #LiveWorship #EHOWSecunderabad",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/igXx533eyrw/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/igXx533eyrw/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/igXx533eyrw/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/igXx533eyrw/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/igXx533eyrw/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/igXx533eyrw/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/igXx533eyrw/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/igXx533eyrw/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/igXx533eyrw/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/igXx533eyrw/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -292,5 +292,5 @@
       }
     }
   ],
-  "generatedAt": "2025-12-25T19:33:50.260Z"
+  "generatedAt": "2025-12-25T19:46:53.805Z"
 }
