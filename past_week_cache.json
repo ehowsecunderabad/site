@@ -78,36 +78,36 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "WShA5ORQ1Q5t38Fh3_EjsgtnRdo",
+      "etag": "qnd2v_ncy6bO5RZOQ_X7RjW2F5c",
       "id": "4Prj-5XZEnE",
       "snippet": {
-        "publishedAt": "2025-12-21T06:37:40Z",
+        "publishedAt": "2025-12-28T16:59:23Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Sunday Worship | First Service | 28 Dec 2025",
         "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -219,5 +219,5 @@
       }
     }
   ],
-  "generatedAt": "2025-12-28T16:52:57.461Z"
+  "generatedAt": "2025-12-28T17:09:31.013Z"
 }
