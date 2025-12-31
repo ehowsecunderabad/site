@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "pconVBPq8mu_ws-8JuTi1Yhs9-w",
+      "etag": "2zmHmXZfzwG-1CfyK56d5j12A8I",
       "id": "pFcs71zN-e4",
       "snippet": {
         "publishedAt": "2025-12-31T15:16:14Z",
@@ -70,10 +70,10 @@
       "liveStreamingDetails": {
         "actualStartTime": "2025-12-31T15:32:32Z",
         "scheduledStartTime": "2025-12-31T15:30:00Z",
-        "concurrentViewers": "34",
+        "concurrentViewers": "22",
         "activeLiveChatId": "Cg0KC3BGY3M3MXpOLWU0KicKGFVDOTVndjYwNjBKclJONDVjTVU3Vkd3ZxILcEZjczcxek4tZTQ"
       }
     }
   ],
-  "generatedAt": "2025-12-31T17:47:36.559Z"
+  "generatedAt": "2025-12-31T18:16:36.103Z"
 }
