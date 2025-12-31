@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "sIJ82cPhAbiKRL6rwIXFOzykRrg",
+      "etag": "hnB_4UZ9ieyK4fDa6X8GO0cidjs",
       "id": "pFcs71zN-e4",
       "snippet": {
         "publishedAt": "2025-12-31T15:16:14Z",
@@ -59,7 +59,7 @@
           "forgiveness"
         ],
         "categoryId": "29",
-        "liveBroadcastContent": "upcoming",
+        "liveBroadcastContent": "live",
         "defaultLanguage": "en",
         "localized": {
           "title": "New Year's Eve Service",
@@ -68,11 +68,12 @@
         "defaultAudioLanguage": "en"
       },
       "liveStreamingDetails": {
-        "actualStartTime": "2025-12-31T15:32:21Z",
+        "actualStartTime": "2025-12-31T15:32:32Z",
         "scheduledStartTime": "2025-12-31T15:30:00Z",
+        "concurrentViewers": "21",
         "activeLiveChatId": "Cg0KC3BGY3M3MXpOLWU0KicKGFVDOTVndjYwNjBKclJONDVjTVU3Vkd3ZxILcEZjczcxek4tZTQ"
       }
     }
   ],
-  "generatedAt": "2025-12-31T15:32:26.906Z"
+  "generatedAt": "2025-12-31T15:50:07.177Z"
 }
