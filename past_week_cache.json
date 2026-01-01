@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "YFOn9onhp-P-NqdAdtL3hKK0E30",
+      "etag": "AOG612zj0A7W7-asoT8BMfWT1Is",
       "id": "pFcs71zN-e4",
       "snippet": {
-        "publishedAt": "2025-12-31T15:16:14Z",
+        "publishedAt": "2026-01-01T07:12:09Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "New Year's Eve Service | 31 December 2025",
         "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 9:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST,\n👉Wednesday Bible Study at 7 pm IST and\n👉Youth Fellowship on Sunday after the 2nd Service,\n👉All Day Prayer on Second Saturday at 10 am IST \n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/pFcs71zN-e4/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -292,5 +292,5 @@
       }
     }
   ],
-  "generatedAt": "2026-01-01T06:53:48.478Z"
+  "generatedAt": "2026-01-01T07:15:19.364Z"
 }
