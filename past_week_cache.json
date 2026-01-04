@@ -2,6 +2,75 @@
   "items": [
     {
       "kind": "youtube#video",
+      "etag": "08arGvWlhW4Xi2oUwcjynO0rfNM",
+      "id": "D59Yq8t9D8U",
+      "snippet": {
+        "publishedAt": "2026-01-03T13:14:06Z",
+        "channelId": "UC95gv6060JrRN45cMU7VGwg",
+        "title": "Sunday Worship | First Service | 4 Jan 2026",
+        "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/D59Yq8t9D8U/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/D59Yq8t9D8U/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/D59Yq8t9D8U/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/D59Yq8t9D8U/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/D59Yq8t9D8U/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "EHOW Secunderabad",
+        "tags": [
+          "ehow secunderabad",
+          "fellowship",
+          "hyderabad",
+          "telangana",
+          "india",
+          "conference",
+          "jesus",
+          "christ",
+          "god",
+          "holy bible",
+          "scripture",
+          "study",
+          "christian",
+          "church",
+          "emmanuel house of worship"
+        ],
+        "categoryId": "29",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Sunday Worship | First Service | 4 Jan 2026",
+          "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad"
+        },
+        "defaultAudioLanguage": "en-IN"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-01-04T01:56:30Z",
+        "actualEndTime": "2026-01-04T03:52:44Z",
+        "scheduledStartTime": "2026-01-04T02:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
       "etag": "hQTSaU9h-W0MlMinya32RHkjLVI",
       "id": "pFcs71zN-e4",
       "snippet": {
@@ -148,76 +217,7 @@
         "actualEndTime": "2025-12-28T07:13:34Z",
         "scheduledStartTime": "2025-12-28T04:00:00Z"
       }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "QDLc4JRwP2nrqj34jg3M_Jp6Sbk",
-      "id": "4Prj-5XZEnE",
-      "snippet": {
-        "publishedAt": "2025-12-28T16:59:23Z",
-        "channelId": "UC95gv6060JrRN45cMU7VGwg",
-        "title": "Sunday Worship | First Service | 28 Dec 2025",
-        "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/4Prj-5XZEnE/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "EHOW Secunderabad",
-        "tags": [
-          "ehow secunderabad",
-          "fellowship",
-          "hyderabad",
-          "telangana",
-          "india",
-          "conference",
-          "jesus",
-          "christ",
-          "god",
-          "holy bible",
-          "scripture",
-          "study",
-          "christian",
-          "church",
-          "emmanuel house of worship"
-        ],
-        "categoryId": "29",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "Sunday Worship | First Service | 28 Dec 2025",
-          "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad"
-        },
-        "defaultAudioLanguage": "en-IN"
-      },
-      "liveStreamingDetails": {
-        "actualStartTime": "2025-12-28T01:57:59Z",
-        "actualEndTime": "2025-12-28T03:54:34Z",
-        "scheduledStartTime": "2025-12-28T02:00:00Z"
-      }
     }
   ],
-  "generatedAt": "2026-01-04T03:18:37.950Z"
+  "generatedAt": "2026-01-04T04:31:20.835Z"
 }
