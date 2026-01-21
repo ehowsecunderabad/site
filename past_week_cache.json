@@ -2,6 +2,83 @@
   "items": [
     {
       "kind": "youtube#video",
+      "etag": "hIIkaW4lw8rpMm49jplU1M2UYMQ",
+      "id": "PGXR_d52-Xc",
+      "snippet": {
+        "publishedAt": "2026-01-21T10:26:26Z",
+        "channelId": "UC95gv6060JrRN45cMU7VGwg",
+        "title": "Wednesday Bible Study | 21 Jan 2026",
+        "description": "Wednesday Bible Study is a weekly meeting of Emmanuel House of Worship, Secunderabad where we study the Holy Bible to learn and grow in the word of God.\n\nPlease do join us every Wednesday at 7 pm IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉All Day Prayer on Second Saturday at 10 am IST\n👉Sunday Worship 1st Service (English) at 7:30 am IST\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the 2nd Service\n\nAlso follow EHOW on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#WednesdayBibleStudy",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PGXR_d52-Xc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PGXR_d52-Xc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PGXR_d52-Xc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/PGXR_d52-Xc/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/PGXR_d52-Xc/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "EHOW Secunderabad",
+        "tags": [
+          "ehow secunderabad",
+          "fellowship",
+          "hyderabad",
+          "telangana",
+          "india",
+          "zoom meeting",
+          "video",
+          "conference",
+          "jesus",
+          "christ",
+          "god",
+          "sunday",
+          "worship",
+          "sunday worship",
+          "live worship",
+          "praise god",
+          "live",
+          "emmanuel house of worship",
+          "God",
+          "sin",
+          "salvation",
+          "revival",
+          "zoom"
+        ],
+        "categoryId": "29",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "Wednesday Bible Study | 21 Jan 2026",
+          "description": "Wednesday Bible Study is a weekly meeting of Emmanuel House of Worship, Secunderabad where we study the Holy Bible to learn and grow in the word of God.\n\nPlease do join us every Wednesday at 7 pm IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉All Day Prayer on Second Saturday at 10 am IST\n👉Sunday Worship 1st Service (English) at 7:30 am IST\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the 2nd Service\n\nAlso follow EHOW on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#WednesdayBibleStudy"
+        },
+        "defaultAudioLanguage": "en-IN"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-01-21T13:58:32Z",
+        "actualEndTime": "2026-01-21T16:38:17Z",
+        "scheduledStartTime": "2026-01-21T13:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
       "etag": "PVbNuo1vDogr6moqopVmOdYwfTQ",
       "id": "PEYkMQK23W0",
       "snippet": {
@@ -146,5 +223,5 @@
       }
     }
   ],
-  "generatedAt": "2026-01-21T16:23:59.982Z"
+  "generatedAt": "2026-01-21T17:34:11.215Z"
 }
