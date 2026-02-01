@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "NVEZJfhDYqzsYUQ6s1ipcqP_ocA",
+      "etag": "p6mANGYVkiVCL3Bu5vnjkx478F4",
       "id": "lnh6YyYkhAY",
       "snippet": {
-        "publishedAt": "2026-02-01T04:09:04Z",
+        "publishedAt": "2026-02-01T18:50:50Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Sunday Worship | Second Service | 1 Feb 2026",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/lnh6YyYkhAY/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -199,5 +199,5 @@
       }
     }
   ],
-  "generatedAt": "2026-02-01T18:19:22.917Z"
+  "generatedAt": "2026-02-01T18:57:42.851Z"
 }
