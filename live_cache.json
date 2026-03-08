@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "QR2JoEmwnk-k4pHyavG-Dcz6yTk",
+      "etag": "TnfzNlQ8ijq1zN2y_lPAFhcOLSs",
       "id": "sCNdMKP4t0o",
       "snippet": {
         "publishedAt": "2026-03-04T04:34:15Z",
@@ -72,10 +72,9 @@
       },
       "liveStreamingDetails": {
         "actualStartTime": "2026-03-08T04:00:02Z",
-        "scheduledStartTime": "2026-03-08T04:00:00Z",
-        "concurrentViewers": "1"
+        "scheduledStartTime": "2026-03-08T04:00:00Z"
       }
     }
   ],
-  "generatedAt": "2026-03-08T09:18:53.315Z"
+  "generatedAt": "2026-03-08T09:49:18.615Z"
 }
