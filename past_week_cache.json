@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "mvMpFkrPPcZr5rfk4U_Kww2JwcU",
+      "etag": "26RTPbLXu_hZfszZ9oFCji9TkdE",
       "id": "91BaaqG9ek8",
       "snippet": {
-        "publishedAt": "2026-04-02T14:36:23Z",
+        "publishedAt": "2026-04-03T20:08:29Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Good Friday | Combined Service | 2 Apr 2026",
         "description": "Come, let's worship the Lord!",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -216,5 +216,5 @@
       }
     }
   ],
-  "generatedAt": "2026-04-03T19:56:21.416Z"
+  "generatedAt": "2026-04-03T20:27:01.379Z"
 }
