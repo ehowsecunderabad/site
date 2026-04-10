@@ -75,77 +75,7 @@
         "actualEndTime": "2026-04-05T06:27:43Z",
         "scheduledStartTime": "2026-04-05T03:30:00Z"
       }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "gvXAurKipukUB1trX1CFLVGsSJw",
-      "id": "91BaaqG9ek8",
-      "snippet": {
-        "publishedAt": "2026-04-03T20:08:29Z",
-        "channelId": "UC95gv6060JrRN45cMU7VGwg",
-        "title": "Good Friday | Combined Service | 3 Apr 2026",
-        "description": "Come, let's worship the Lord!",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/91BaaqG9ek8/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "EHOW Secunderabad",
-        "tags": [
-          "ehow secunderabad",
-          "fellowship",
-          "hyderabad",
-          "telangana",
-          "india",
-          "conference",
-          "jesus",
-          "christ",
-          "god",
-          "holy bible",
-          "scripture",
-          "study",
-          "christian",
-          "church",
-          "emmanuel house of worship",
-          "good friday service"
-        ],
-        "categoryId": "29",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "Good Friday | Combined Service | 3 Apr 2026",
-          "description": "Come, let's worship the Lord!"
-        },
-        "defaultAudioLanguage": "en-IN"
-      },
-      "liveStreamingDetails": {
-        "actualStartTime": "2026-04-03T03:59:47Z",
-        "actualEndTime": "2026-04-03T07:23:20Z",
-        "scheduledStartTime": "2026-04-03T04:00:00Z"
-      }
     }
   ],
-  "generatedAt": "2026-04-10T06:12:38.712Z"
+  "generatedAt": "2026-04-10T07:57:57.899Z"
 }
