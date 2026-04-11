@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "oRnP35oeZDxujcjyanWncEiQJz4",
+      "etag": "GQZq7KCLwOBg9xnMibzLwR-zEFs",
       "id": "Tz1n0Z69L3Y",
       "snippet": {
         "publishedAt": "2026-04-11T16:55:44Z",
@@ -71,12 +71,12 @@
         "defaultAudioLanguage": "en-IN"
       },
       "liveStreamingDetails": {
-        "scheduledStartTime": "2026-04-12T04:00:00Z"
+        "scheduledStartTime": "2026-04-12T03:30:00Z"
       }
     },
     {
       "kind": "youtube#video",
-      "etag": "GuI0F1_lLHg2N7VzgdS45f5pECU",
+      "etag": "xMxO7DtbWzjGZr9gGpQWLS2XfNA",
       "id": "DzaTt_Q1W5c",
       "snippet": {
         "publishedAt": "2026-04-11T16:54:56Z",
@@ -138,10 +138,10 @@
         "defaultAudioLanguage": "en-IN"
       },
       "liveStreamingDetails": {
-        "scheduledStartTime": "2026-04-12T02:00:00Z",
+        "scheduledStartTime": "2026-04-12T01:30:00Z",
         "activeLiveChatId": "Cg0KC0R6YVR0X1ExVzVjKicKGFVDOTVndjYwNjBKclJONDVjTVU3Vkd3ZxILRHphVHRfUTFXNWM"
       }
     }
   ],
-  "generatedAt": "2026-04-11T17:00:48.294Z"
+  "generatedAt": "2026-04-11T17:47:55.724Z"
 }
