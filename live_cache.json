@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "v22nVcZo19PGR19Tb09JjIrFUjM",
-      "id": "DzaTt_Q1W5c",
+      "etag": "rceam6V3CmkYDCW2VAHUtyT-v5k",
+      "id": "Tz1n0Z69L3Y",
       "snippet": {
-        "publishedAt": "2026-04-11T16:54:56Z",
+        "publishedAt": "2026-04-11T16:55:44Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
-        "title": "Sunday Worship | First Service | 12 Apr 2026",
-        "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:00 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:00 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad",
+        "title": "Sunday Worship | Second Service | 12 Apr 2026",
+        "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 9:00 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 1st Service (English) at 7:00 am IST,\n👉Wednesday Bible Study at 7 pm IST and\n👉Youth Fellowship on Sunday after the 2nd Service,\n👉All Day Prayer on Second Saturday at 10 am IST \n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/DzaTt_Q1W5c/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/Tz1n0Z69L3Y/default_live.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/DzaTt_Q1W5c/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/Tz1n0Z69L3Y/mqdefault_live.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/DzaTt_Q1W5c/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/Tz1n0Z69L3Y/hqdefault_live.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/DzaTt_Q1W5c/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/Tz1n0Z69L3Y/sddefault_live.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/DzaTt_Q1W5c/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/Tz1n0Z69L3Y/maxresdefault_live.jpg",
             "width": 1280,
             "height": 720
           }
@@ -43,33 +43,39 @@
           "hyderabad",
           "telangana",
           "india",
+          "zoom meeting",
+          "video",
           "conference",
           "jesus",
           "christ",
           "god",
-          "holy bible",
-          "scripture",
-          "study",
-          "christian",
-          "church",
-          "emmanuel house of worship"
+          "sunday",
+          "worship",
+          "sunday worship",
+          "live worship",
+          "praise god",
+          "live",
+          "emmanuel house of worship",
+          "God",
+          "sin",
+          "salvation",
+          "revival"
         ],
         "categoryId": "29",
         "liveBroadcastContent": "live",
         "defaultLanguage": "en",
         "localized": {
-          "title": "Sunday Worship | First Service | 12 Apr 2026",
-          "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:00 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:00 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad"
+          "title": "Sunday Worship | Second Service | 12 Apr 2026",
+          "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 9:00 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 1st Service (English) at 7:00 am IST,\n👉Wednesday Bible Study at 7 pm IST and\n👉Youth Fellowship on Sunday after the 2nd Service,\n👉All Day Prayer on Second Saturday at 10 am IST \n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod"
         },
         "defaultAudioLanguage": "en-IN"
       },
       "liveStreamingDetails": {
-        "actualStartTime": "2026-04-12T01:28:35Z",
-        "scheduledStartTime": "2026-04-12T01:30:00Z",
-        "concurrentViewers": "7",
-        "activeLiveChatId": "Cg0KC0R6YVR0X1ExVzVjKicKGFVDOTVndjYwNjBKclJONDVjTVU3Vkd3ZxILRHphVHRfUTFXNWM"
+        "actualStartTime": "2026-04-12T03:27:04Z",
+        "scheduledStartTime": "2026-04-12T03:30:00Z",
+        "concurrentViewers": "10"
       }
     }
   ],
-  "generatedAt": "2026-04-12T02:09:32.654Z"
+  "generatedAt": "2026-04-12T05:05:47.649Z"
 }
