@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "8XUx9cUaPaZKK-T0Q4Blttoemhc",
+      "etag": "avsEdA6WQ27ilL9UCvc7VC2CybI",
       "id": "REqGYmtCd0o",
       "snippet": {
-        "publishedAt": "2026-04-21T16:49:43Z",
+        "publishedAt": "2026-04-23T04:01:13Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Wednesday Bible Study | 22 Apr 2026",
         "description": "Wednesday Bible Study is a weekly meeting of Emmanuel House of Worship, Secunderabad where we study the Holy Bible to learn and grow in the word of God.\n\nPlease do join us every Wednesday at 7 pm IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉All Day Prayer on Second Saturday at 10 am IST\n👉Sunday Worship 1st Service (English) at 7:00 am IST\n👉Sunday Worship 2nd Service (English & Telugu) at 9:00 am IST\n👉Youth Fellowship on alternate Sundays after the 2nd Service\n\nAlso follow EHOW on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#WednesdayBibleStudy",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/REqGYmtCd0o/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -212,5 +212,5 @@
       }
     }
   ],
-  "generatedAt": "2026-04-23T02:27:02.475Z"
+  "generatedAt": "2026-04-23T05:14:11.898Z"
 }
