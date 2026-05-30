@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "QtNV5yL_oG8UHg9eSlOWuD7jtmw",
+      "etag": "pD-_KuSTF1-MCawx3IdjKnACM2g",
       "id": "K70RVeXLgMc",
       "snippet": {
         "publishedAt": "2026-05-28T00:49:30Z",
@@ -64,8 +64,7 @@
         "localized": {
           "title": "Home Call of Sis. Ruth David Bollampally",
           "description": ""
-        },
-        "defaultAudioLanguage": "te"
+        }
       },
       "liveStreamingDetails": {
         "actualStartTime": "2026-05-27T08:07:27Z",
@@ -219,5 +218,5 @@
       }
     }
   ],
-  "generatedAt": "2026-05-30T04:14:22.202Z"
+  "generatedAt": "2026-05-30T07:19:03.746Z"
 }
