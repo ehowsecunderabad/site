@@ -147,7 +147,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "yMus6O3o7h2AaF2I2KYtWDFEVHE",
+      "etag": "Lt11ItNbPHhF0anoMPTGeOB3Fjk",
       "id": "Ej6UeK6_UY4",
       "snippet": {
         "publishedAt": "2026-05-31T04:50:27Z",
@@ -209,8 +209,7 @@
         "localized": {
           "title": "Celebrating the life of Sis. Ruth David Bollampally",
           "description": ""
-        },
-        "defaultAudioLanguage": "te"
+        }
       },
       "liveStreamingDetails": {
         "actualStartTime": "2026-05-30T12:04:37Z",
@@ -291,5 +290,5 @@
       }
     }
   ],
-  "generatedAt": "2026-06-03T02:03:27.954Z"
+  "generatedAt": "2026-06-03T07:04:40.991Z"
 }
