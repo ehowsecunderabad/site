@@ -78,7 +78,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "69y9ZqKPL3zh6J4_EGbQSCRKWmE",
+      "etag": "TMH_BLUriunCXImNbA7BIsRImBQ",
       "id": "xFqsRcxtT-w",
       "snippet": {
         "publishedAt": "2026-06-21T16:02:43Z",
@@ -146,5 +146,5 @@
       }
     }
   ],
-  "generatedAt": "2026-06-21T16:19:27.941Z"
+  "generatedAt": "2026-06-21T17:59:38.945Z"
 }
