@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "1Qk3EnCUyndcTaQlNpBIUigYbgI",
+      "etag": "pqN2DbX7qlPTCeJSXh3fgsquCWs",
       "id": "EuGMvFR15o8",
       "snippet": {
         "publishedAt": "2026-07-04T16:18:41Z",
@@ -70,5 +70,5 @@
       }
     }
   ],
-  "generatedAt": "2026-07-05T15:34:52.117Z"
+  "generatedAt": "2026-07-05T16:40:23.445Z"
 }
