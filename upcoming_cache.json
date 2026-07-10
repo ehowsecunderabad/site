@@ -1,4 +1,56 @@
 {
-  "items": [],
-  "generatedAt": "2026-07-10T18:42:19.428Z"
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "4Ue_kQAbb0r_GPSnv2GlCJKjrVE",
+      "id": "rUUm_AuHKc4",
+      "snippet": {
+        "publishedAt": "2026-07-10T20:03:54Z",
+        "channelId": "UC95gv6060JrRN45cMU7VGwg",
+        "title": "First Meeting | 31st Anniversary | 11 July 2026",
+        "description": "Praise be to God for His continued faithfulness for the past 31 years.\nPlease do join us for a time of corporate worship and exhortation.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 1st Service (English) at 7:00 am IST\n👉Sunday Worship 2nd Service (English & Telugu) at 9:00 am IST\n👉Wednesday Bible Study at 7:00 pm IST\n👉Youth Fellowship on every Sunday after the 2nd Service\n👉All Day Prayer on Second Saturday at 10 am IST\n\nAlso follow EHOW on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rUUm_AuHKc4/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rUUm_AuHKc4/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rUUm_AuHKc4/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rUUm_AuHKc4/sddefault_live.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rUUm_AuHKc4/maxresdefault_live.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "EHOW Secunderabad",
+        "categoryId": "29",
+        "liveBroadcastContent": "upcoming",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "First Meeting | 31st Anniversary | 11 July 2026",
+          "description": "Praise be to God for His continued faithfulness for the past 31 years.\nPlease do join us for a time of corporate worship and exhortation.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 1st Service (English) at 7:00 am IST\n👉Sunday Worship 2nd Service (English & Telugu) at 9:00 am IST\n👉Wednesday Bible Study at 7:00 pm IST\n👉Youth Fellowship on every Sunday after the 2nd Service\n👉All Day Prayer on Second Saturday at 10 am IST\n\nAlso follow EHOW on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd"
+        },
+        "defaultAudioLanguage": "en-IN"
+      },
+      "liveStreamingDetails": {
+        "scheduledStartTime": "2026-07-11T04:00:00Z",
+        "activeLiveChatId": "Cg0KC3JVVW1fQXVIS2M0KicKGFVDOTVndjYwNjBKclJONDVjTVU3Vkd3ZxILclVVbV9BdUhLYzQ"
+      }
+    }
+  ],
+  "generatedAt": "2026-07-10T20:04:36.854Z"
 }
