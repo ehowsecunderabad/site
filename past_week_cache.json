@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "pMbPTy8Lg2co-pOkoa6le7Uu2lI",
+      "etag": "4zKCeurzi5zCUi45uphBi60ji48",
       "id": "46q_oe3joks",
       "snippet": {
-        "publishedAt": "2026-07-10T20:09:54Z",
+        "publishedAt": "2026-07-12T20:27:39Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Anniversary Sunday Worship | 31 Anniversary | 12 July 2026",
         "description": "Praise be to God for His continued faithfulness for the past 31 years.\nPlease do join us for a time of corporate worship and exhortation.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 1st Service (English) at 7:00 am IST\n👉Sunday Worship 2nd Service (English & Telugu) at 9:00 am IST\n👉Wednesday Bible Study at 7:00 pm IST\n👉Youth Fellowship on every Sunday after the 2nd Service\n👉All Day Prayer on Second Saturday at 10 am IST\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/46q_oe3joks/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/46q_oe3joks/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/46q_oe3joks/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/46q_oe3joks/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/46q_oe3joks/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/46q_oe3joks/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/46q_oe3joks/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/46q_oe3joks/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/46q_oe3joks/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/46q_oe3joks/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -212,5 +212,5 @@
       }
     }
   ],
-  "generatedAt": "2026-07-12T19:47:16.033Z"
+  "generatedAt": "2026-07-12T20:33:56.814Z"
 }
