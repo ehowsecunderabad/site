@@ -147,7 +147,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "RAhcX_RtEwgRE410eDpmGoKBqiw",
+      "etag": "YQ8HXI5vntxxxYnCcdgNVbx75iE",
       "id": "rUUm_AuHKc4",
       "snippet": {
         "publishedAt": "2026-07-11T19:04:28Z",
@@ -212,5 +212,5 @@
       }
     }
   ],
-  "generatedAt": "2026-07-15T20:47:46.458Z"
+  "generatedAt": "2026-07-15T21:45:01.691Z"
 }
