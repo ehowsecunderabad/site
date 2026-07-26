@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "LJy5Vuz4EYHSYae28CkSFgQsrpE",
+      "etag": "Y7dwDEVnPiQnApZfJeGgayRL-b8",
       "id": "WeNIx-92oGM",
       "snippet": {
         "publishedAt": "2026-07-26T00:22:33Z",
@@ -73,9 +73,9 @@
       "liveStreamingDetails": {
         "actualStartTime": "2026-07-26T04:00:39Z",
         "scheduledStartTime": "2026-07-26T04:00:00Z",
-        "concurrentViewers": "17"
+        "concurrentViewers": "3"
       }
     }
   ],
-  "generatedAt": "2026-07-26T04:38:24.914Z"
+  "generatedAt": "2026-07-26T07:17:03.452Z"
 }
