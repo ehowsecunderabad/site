@@ -78,36 +78,36 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "kpE3OyzoI9HfIHj6X2AwjEbsM0w",
+      "etag": "QKsoVcZ3AUvZItJE0S4i3zeGPMg",
       "id": "kla1MB0P44E",
       "snippet": {
-        "publishedAt": "2026-09-12T14:59:53Z",
+        "publishedAt": "2026-09-13T16:39:01Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Sunday Worship | First Service | 13 Sep 2026",
         "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 7:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n\n👉Sunday Worship 2nd Service (English & Telugu) at 9:30 am IST\n👉Youth Fellowship on Sunday after the Second Service,\n👉Wednesday Bible Study at 7 pm IST,\n👉All Day Prayer on Second Saturday at 10 am IST and\n\n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#SundayWorship #LiveWorship #EHOWSecunderabad",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/kla1MB0P44E/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/kla1MB0P44E/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/kla1MB0P44E/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/kla1MB0P44E/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/kla1MB0P44E/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/kla1MB0P44E/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/kla1MB0P44E/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/kla1MB0P44E/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/kla1MB0P44E/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/kla1MB0P44E/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -146,5 +146,5 @@
       }
     }
   ],
-  "generatedAt": "2026-09-13T14:21:28.793Z"
+  "generatedAt": "2026-09-13T17:28:51.680Z"
 }
