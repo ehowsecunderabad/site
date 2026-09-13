@@ -2,7 +2,7 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "lyNeGKwnQXbpmEI-bTB-ZjypIUs",
+      "etag": "k9sVzR0-3xfuox2vWH4N9yoSDOE",
       "id": "O4ytyXCY82w",
       "snippet": {
         "publishedAt": "2026-09-13T18:54:25Z",
@@ -78,7 +78,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "UdTbrNCAy1QC8M8kFHbb89fmH2c",
+      "etag": "_goPUbAt1GaIREBVjsbJ2Y-eCZc",
       "id": "kla1MB0P44E",
       "snippet": {
         "publishedAt": "2026-09-13T16:39:01Z",
@@ -146,5 +146,5 @@
       }
     }
   ],
-  "generatedAt": "2026-09-13T19:38:22.069Z"
+  "generatedAt": "2026-09-13T21:40:33.127Z"
 }
