@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "4kQvnUwV3rFMlE5XMVxENO_r8xc",
+      "etag": "lyNeGKwnQXbpmEI-bTB-ZjypIUs",
       "id": "O4ytyXCY82w",
       "snippet": {
-        "publishedAt": "2026-09-12T15:01:05Z",
+        "publishedAt": "2026-09-13T18:54:25Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Sunday Worship | Second Service | 13 Sep 2026",
         "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 9:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 1st Service (English) at 7:30 am IST,\n👉Wednesday Bible Study at 7 pm IST and\n👉Youth Fellowship on Sunday after the 2nd Service,\n👉All Day Prayer on Second Saturday at 10 am IST \n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/sddefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/maxresdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/O4ytyXCY82w/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -78,7 +78,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "QKsoVcZ3AUvZItJE0S4i3zeGPMg",
+      "etag": "UdTbrNCAy1QC8M8kFHbb89fmH2c",
       "id": "kla1MB0P44E",
       "snippet": {
         "publishedAt": "2026-09-13T16:39:01Z",
@@ -146,5 +146,5 @@
       }
     }
   ],
-  "generatedAt": "2026-09-13T17:28:51.680Z"
+  "generatedAt": "2026-09-13T19:38:22.069Z"
 }
