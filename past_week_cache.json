@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "OOYc5XrMQRCV977EBAgJEWXRExU",
+      "etag": "MlYfIOHBQU-zMzTglrMQrPsU8ME",
       "id": "MYFCOLSWHTM",
       "snippet": {
-        "publishedAt": "2026-10-24T06:50:16Z",
+        "publishedAt": "2026-10-25T21:48:58Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Sunday Worship | Second Service | 25 Oct 2026",
         "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 9:30 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉Sunday Worship 1st Service (English) at 7:30 am IST,\n👉Wednesday Bible Study at 7 pm IST and\n👉Youth Fellowship on Sunday after the 2nd Service,\n👉All Day Prayer on Second Saturday at 10 am IST \n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/default.jpg?v=6adc5528",
+            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/mqdefault.jpg?v=6adc5528",
+            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/hqdefault.jpg?v=6adc5528",
+            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/sddefault.jpg?v=6adc5528",
+            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/maxresdefault.jpg?v=6adc5528",
+            "url": "https://i.ytimg.com/vi/MYFCOLSWHTM/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -78,7 +78,7 @@
     },
     {
       "kind": "youtube#video",
-      "etag": "tA32ubStRujje4gbL-NlVKD_8iQ",
+      "etag": "Yl8DTyWIZ2VQPM5SGRrb93PO7ck",
       "id": "mlWlHxM4byo",
       "snippet": {
         "publishedAt": "2026-10-25T18:44:24Z",
@@ -146,5 +146,5 @@
       }
     }
   ],
-  "generatedAt": "2026-10-25T21:27:35.834Z"
+  "generatedAt": "2026-10-25T23:24:47.481Z"
 }
