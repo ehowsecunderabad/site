@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "7iU7W1rx5YPYtXEoVtY-k7K29OI",
-      "id": "mkWhmqPRRGQ",
+      "etag": "giPlwr7QSR6Jp5maQf2hYCcmLxo",
+      "id": "Y9rJzwa0SJk",
       "snippet": {
-        "publishedAt": "2026-11-02T00:58:45Z",
+        "publishedAt": "2026-11-07T15:27:13Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
-        "title": "Sunday Worship | 1 Nov 2026",
+        "title": "Sunday Worship | 8 Nov 2026",
         "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 9 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉Wednesday Bible Study at 7 pm IST and\n👉Youth Fellowship on Sunday after the Sunday Worship Service,\n👉All Day Prayer on Second Saturday at 10 am IST \n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/mkWhmqPRRGQ/default.jpg",
+            "url": "https://i.ytimg.com/vi/Y9rJzwa0SJk/default.jpg?v=6aef4351",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/mkWhmqPRRGQ/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Y9rJzwa0SJk/mqdefault.jpg?v=6aef4351",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/mkWhmqPRRGQ/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Y9rJzwa0SJk/hqdefault.jpg?v=6aef4351",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/mkWhmqPRRGQ/sddefault.jpg",
+            "url": "https://i.ytimg.com/vi/Y9rJzwa0SJk/sddefault.jpg?v=6aef4351",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/mkWhmqPRRGQ/maxresdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Y9rJzwa0SJk/maxresdefault.jpg?v=6aef4351",
             "width": 1280,
             "height": 720
           }
@@ -65,17 +65,17 @@
         "liveBroadcastContent": "none",
         "defaultLanguage": "en",
         "localized": {
-          "title": "Sunday Worship | 1 Nov 2026",
+          "title": "Sunday Worship | 8 Nov 2026",
           "description": "Let's gather to worship the Lord corporately and to take part in the holy communion.\n\nPlease do join us every Sunday at 9 am IST.\n\nEmmanuel House of Worship also meets for below programs:\n👉Wednesday Bible Study at 7 pm IST and\n👉Youth Fellowship on Sunday after the Sunday Worship Service,\n👉All Day Prayer on Second Saturday at 10 am IST \n\nAlso follow Emmanuel House of Worship on Facebook: https://www.facebook.com/emmanuelhouseofworshiphyd\n\n#LiveWorship #SundayService #WordOfGod"
         },
         "defaultAudioLanguage": "en-IN"
       },
       "liveStreamingDetails": {
-        "actualStartTime": "2026-11-01T03:30:31Z",
-        "actualEndTime": "2026-11-01T06:03:59Z",
-        "scheduledStartTime": "2026-11-01T03:30:00Z"
+        "actualStartTime": "2026-11-08T03:26:53Z",
+        "actualEndTime": "2026-11-08T06:18:58Z",
+        "scheduledStartTime": "2026-11-08T03:30:00Z"
       }
     }
   ],
-  "generatedAt": "2026-11-08T01:38:12.500Z"
+  "generatedAt": "2026-11-08T07:57:10.487Z"
 }
