@@ -2,36 +2,36 @@
   "items": [
     {
       "kind": "youtube#video",
-      "etag": "Qf5oeK3uxlNUgP2cB3rku4vZ0oo",
+      "etag": "l9J_reMcJRqxkN9bi_C48tH3pmI",
       "id": "3T5CY7IsAs4",
       "snippet": {
-        "publishedAt": "2026-11-09T04:47:01Z",
+        "publishedAt": "2026-11-09T23:02:27Z",
         "channelId": "UC95gv6060JrRN45cMU7VGwg",
         "title": "Funeral Proceedings of Bro. Paul Steaven Medari",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/default.jpg?v=6af15048",
+            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/mqdefault.jpg?v=6af15048",
+            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/hqdefault.jpg?v=6af15048",
+            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/hqdefault.jpg",
             "width": 480,
             "height": 360
           },
           "standard": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/sddefault.jpg?v=6af15048",
+            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/sddefault.jpg",
             "width": 640,
             "height": 480
           },
           "maxres": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/maxresdefault.jpg?v=6af15048",
+            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/maxresdefault.jpg",
             "width": 1280,
             "height": 720
           }
@@ -146,5 +146,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-09T20:05:33.634Z"
+  "generatedAt": "2026-11-10T02:42:03.022Z"
 }
