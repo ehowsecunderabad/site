@@ -2,6 +2,75 @@
   "items": [
     {
       "kind": "youtube#video",
+      "etag": "QjBekxZdjQ2n4BiYJGsYvNycfBo",
+      "id": "fToJGX8sz1g",
+      "snippet": {
+        "publishedAt": "2026-11-11T13:03:08Z",
+        "channelId": "UC95gv6060JrRN45cMU7VGwg",
+        "title": "In Loving Memory of Bro. Paul Steaven Medari",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/default.jpg?v=6af4678c",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/mqdefault.jpg?v=6af4678c",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/hqdefault.jpg?v=6af4678c",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/sddefault.jpg?v=6af4678c",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/maxresdefault.jpg?v=6af4678c",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "EHOW Secunderabad",
+        "tags": [
+          "ehow secunderabad",
+          "fellowship",
+          "hyderabad",
+          "telangana",
+          "india",
+          "conference",
+          "jesus",
+          "christ",
+          "god",
+          "holy bible",
+          "scripture",
+          "study",
+          "christian",
+          "church",
+          "emmanuel house of worship"
+        ],
+        "categoryId": "29",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "en",
+        "localized": {
+          "title": "In Loving Memory of Bro. Paul Steaven Medari",
+          "description": ""
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "liveStreamingDetails": {
+        "actualStartTime": "2026-11-11T13:05:43Z",
+        "actualEndTime": "2026-11-11T16:54:38Z",
+        "scheduledStartTime": "2026-11-11T13:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#video",
       "etag": "l9J_reMcJRqxkN9bi_C48tH3pmI",
       "id": "3T5CY7IsAs4",
       "snippet": {
@@ -146,5 +215,5 @@
       }
     }
   ],
-  "generatedAt": "2026-11-11T09:57:37.377Z"
+  "generatedAt": "2026-11-11T17:39:04.280Z"
 }
