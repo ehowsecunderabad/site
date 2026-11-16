@@ -144,76 +144,7 @@
         "actualEndTime": "2026-11-11T16:54:38Z",
         "scheduledStartTime": "2026-11-11T13:00:00Z"
       }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "lw-hrYs7CfCkkCRCTUzxfOoOU2I",
-      "id": "3T5CY7IsAs4",
-      "snippet": {
-        "publishedAt": "2026-11-09T23:02:27Z",
-        "channelId": "UC95gv6060JrRN45cMU7VGwg",
-        "title": "Funeral Proceedings of Bro. Paul Steaven Medari",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/3T5CY7IsAs4/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "EHOW Secunderabad",
-        "tags": [
-          "ehow secunderabad",
-          "fellowship",
-          "hyderabad",
-          "telangana",
-          "india",
-          "conference",
-          "jesus",
-          "christ",
-          "god",
-          "holy bible",
-          "scripture",
-          "study",
-          "christian",
-          "church",
-          "emmanuel house of worship"
-        ],
-        "categoryId": "29",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "Funeral Proceedings of Bro. Paul Steaven Medari",
-          "description": ""
-        },
-        "defaultAudioLanguage": "zxx"
-      },
-      "liveStreamingDetails": {
-        "actualStartTime": "2026-11-09T07:02:44Z",
-        "actualEndTime": "2026-11-09T10:49:34Z",
-        "scheduledStartTime": "2026-11-09T06:30:00Z"
-      }
     }
   ],
-  "generatedAt": "2026-11-16T09:32:35.422Z"
+  "generatedAt": "2026-11-16T19:50:28.369Z"
 }
