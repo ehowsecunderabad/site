@@ -75,76 +75,7 @@
         "actualEndTime": "2026-11-15T06:13:03Z",
         "scheduledStartTime": "2026-11-15T03:30:00Z"
       }
-    },
-    {
-      "kind": "youtube#video",
-      "etag": "bEZBj2rFZWicp3Oy3LfKQu7nfqQ",
-      "id": "fToJGX8sz1g",
-      "snippet": {
-        "publishedAt": "2026-11-12T06:47:35Z",
-        "channelId": "UC95gv6060JrRN45cMU7VGwg",
-        "title": "In Loving Memory of Bro. Paul Steaven Medari",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          },
-          "standard": {
-            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/sddefault.jpg",
-            "width": 640,
-            "height": 480
-          },
-          "maxres": {
-            "url": "https://i.ytimg.com/vi/fToJGX8sz1g/maxresdefault.jpg",
-            "width": 1280,
-            "height": 720
-          }
-        },
-        "channelTitle": "EHOW Secunderabad",
-        "tags": [
-          "ehow secunderabad",
-          "fellowship",
-          "hyderabad",
-          "telangana",
-          "india",
-          "conference",
-          "jesus",
-          "christ",
-          "god",
-          "holy bible",
-          "scripture",
-          "study",
-          "christian",
-          "church",
-          "emmanuel house of worship"
-        ],
-        "categoryId": "29",
-        "liveBroadcastContent": "none",
-        "defaultLanguage": "en",
-        "localized": {
-          "title": "In Loving Memory of Bro. Paul Steaven Medari",
-          "description": ""
-        },
-        "defaultAudioLanguage": "zxx"
-      },
-      "liveStreamingDetails": {
-        "actualStartTime": "2026-11-11T13:05:43Z",
-        "actualEndTime": "2026-11-11T16:54:38Z",
-        "scheduledStartTime": "2026-11-11T13:00:00Z"
-      }
     }
   ],
-  "generatedAt": "2026-11-18T09:28:51.310Z"
+  "generatedAt": "2026-11-18T18:17:27.200Z"
 }
